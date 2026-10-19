@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connections Unlimited</title>
+  <meta name="description" content="Group sixteen words into four sets of four. Endless puzzles.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/connections/connections.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="home" href="/" aria-label="Back to home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="home-label">Home</span>
+    </a>
+    <h1>Connections</h1>
+    <div class="actions">
+      <button class="pill small" id="new-btn">New puzzle</button>
+    </div>
+  </header>
+
+  <main class="board-wrap">
+    <p class="prompt">Create four groups of four!</p>
+    <div class="board" id="board" aria-live="polite"></div>
+    <div class="mistakes" id="mistakes">
+      <span>Mistakes Remaining:</span>
+      <span class="dots" id="dots"></span>
+    </div>
+    <div class="controls" id="controls">
+      <button class="pill" id="shuffle-btn">Shuffle</button>
+      <button class="pill" id="deselect-btn" disabled>Deselect All</button>
+      <button class="pill solid" id="submit-btn" disabled>Submit</button>
+    </div>
+    <div class="controls" id="end-controls" hidden>
+      <button class="pill" id="results-btn">View Results</button>
+      <button class="pill solid" id="next-btn">Next Puzzle</button>
+    </div>
+  </main>
+
+  <div class="toast-wrap" id="toasts"></div>
+
+  <div class="modal-backdrop" id="modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close" id="modal-close" aria-label="Close">&times;</button>
+      <h2 id="modal-title">Great!</h2>
+      <p id="modal-sub"></p>
+      <div class="emoji-grid" id="emoji-grid"></div>
+      <div class="stats" id="stats"></div>
+      <div class="buttons">
+        <button class="pill" id="share-btn">Share</button>
+        <button class="pill solid" id="modal-next">Next Puzzle</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/common.js"></script>
+  <script src="/connections/categories.js"></script>
+  <script src="/connections/connections.js"></script>
+</body>
+</html>

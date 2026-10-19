@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>The Mini Unlimited</title>
+  <meta name="description" content="Endless 5x5 mini crosswords.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/mini/mini.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="home" href="/" aria-label="Back to home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="home-label">Home</span>
+    </a>
+    <h1>The Mini</h1>
+    <div class="actions">
+      <button class="pill small" id="new-btn">New puzzle</button>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="timer-wrap">
+      <span class="timer" id="timer">0:00</span>
+      <button class="icon-btn" id="pause-btn" aria-label="Pause">
+        <svg viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>
+      </button>
+    </div>
+    <div class="menus">
+      <div class="menu">
+        <button class="menu-btn" data-menu="check">Check</button>
+        <div class="menu-list" id="menu-check">
+          <button data-action="check-square">Square</button>
+          <button data-action="check-word">Word</button>
+          <button data-action="check-puzzle">Puzzle</button>
+          <button data-action="autocheck">Autocheck <span class="checkmark" id="autocheck-mark"></span></button>
+        </div>
+      </div>
+      <div class="menu">
+        <button class="menu-btn" data-menu="reveal">Reveal</button>
+        <div class="menu-list" id="menu-reveal">
+          <button data-action="reveal-square">Square</button>
+          <button data-action="reveal-word">Word</button>
+          <button data-action="reveal-puzzle">Puzzle</button>
+        </div>
+      </div>
+      <button class="menu-btn" data-action="clear">Clear</button>
+    </div>
+  </div>
+
+  <main class="layout">
+    <section class="puzzle">
+      <div class="clue-bar" id="clue-bar">
+        <button class="clue-arrow" id="prev-clue" aria-label="Previous clue">
+          <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="clue-text" id="clue-text"></div>
+        <button class="clue-arrow" id="next-clue" aria-label="Next clue">
+          <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <div class="grid-wrap">
+        <div class="grid" id="grid" role="grid" aria-label="Crossword grid"></div>
+        <div class="paused" id="paused" hidden>
+          <p>Your game is paused.</p>
+          <button class="pill solid" id="resume-btn">Resume</button>
+        </div>
+      </div>
+    </section>
+    <aside class="clue-lists">
+      <div class="clue-col">
+        <h2>Across</h2>
+        <ol id="across-list"></ol>
+      </div>
+      <div class="clue-col">
+        <h2>Down</h2>
+        <ol id="down-list"></ol>
+      </div>
+    </aside>
+  </main>
+
+  <div class="keyboard" id="keyboard"></div>
+
+  <div class="toast-wrap" id="toasts"></div>
+
+  <div class="modal-backdrop" id="modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close" id="modal-close" aria-label="Close">&times;</button>
+      <div class="star" aria-hidden="true">★</div>
+      <h2 id="modal-title">Congratulations!</h2>
+      <p id="modal-sub"></p>
+      <div class="stats" id="stats"></div>
+      <div class="buttons">
+        <button class="pill" id="share-btn">Share</button>
+        <button class="pill solid" id="modal-next">Next Puzzle</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/common.js"></script>
+  <script src="/mini/clues.js"></script>
+  <script src="/mini/puzzles.js"></script>
+  <script src="/mini/mini.js"></script>
+</body>
+</html>

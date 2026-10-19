@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Games Unlimited</title>
+  <meta name="description" content="Play Connections and The Mini crossword as many times as you like.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    body { background: var(--page); min-height: 100vh; display: flex; flex-direction: column; }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 16px;
+      text-align: center;
+    }
+    .title {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: clamp(44px, 10vw, 76px);
+      line-height: 1;
+      margin: 0;
+      letter-spacing: -0.02em;
+    }
+    .subtitle { margin: 16px 0 48px; font-size: 18px; color: var(--muted); }
+    .games { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; width: 100%; }
+    .game {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      width: 260px;
+      max-width: 100%;
+      height: 220px;
+      border-radius: 24px;
+      text-decoration: none;
+      color: var(--ink);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.06);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .game:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
+    .game:active { transform: translateY(0); }
+    .game span { font-family: var(--serif); font-size: 32px; }
+    .game.connections { background: #b4a8ff; }
+    .game.mini { background: #95befa; }
+    .game svg { width: 72px; height: 72px; }
+    footer { padding: 24px 16px; text-align: center; font-size: 13px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 class="title">Games Unlimited</h1>
+    <p class="subtitle">Daily puzzles, minus the daily. Play as many as you like.</p>
+    <div class="games">
+      <a class="game connections" href="/connections">
+        <svg viewBox="0 0 72 72" aria-hidden="true">
+          <rect x="4" y="4" width="30" height="30" rx="5" fill="#f9df6d" stroke="#121212" stroke-width="3"/>
+          <rect x="38" y="4" width="30" height="30" rx="5" fill="#a0c35a" stroke="#121212" stroke-width="3"/>
+          <rect x="4" y="38" width="30" height="30" rx="5" fill="#b0c4ef" stroke="#121212" stroke-width="3"/>
+          <rect x="38" y="38" width="30" height="30" rx="5" fill="#ba81c5" stroke="#121212" stroke-width="3"/>
+        </svg>
+        <span>Connections</span>
+      </a>
+      <a class="game mini" href="/mini">
+        <svg viewBox="0 0 72 72" aria-hidden="true">
+          <rect x="4" y="4" width="64" height="64" fill="#fff" stroke="#121212" stroke-width="3"/>
+          <rect x="4" y="4" width="21.3" height="21.3" fill="#121212"/>
+          <rect x="46.7" y="46.7" width="21.3" height="21.3" fill="#121212"/>
+          <rect x="25.3" y="25.3" width="21.3" height="21.3" fill="#ffda00"/>
+          <path d="M25.3 4v64M46.7 4v64M4 25.3h64M4 46.7h64" stroke="#121212" stroke-width="2"/>
+        </svg>
+        <span>The Mini</span>
+      </a>
+    </div>
+  </main>
+  <footer>An unofficial fan remake for practice. Not affiliated with The New York Times.</footer>
+</body>
+</html>

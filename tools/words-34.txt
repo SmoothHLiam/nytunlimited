@@ -1,0 +1,2548 @@
+ACE	Card that can be high or low
+ACT	Play section
+ADD	Sum up
+ADO	"Much ___ About Nothing"
+ADS	Commercials, briefly
+AFT	Toward the stern
+AGE	Number of candles on a cake
+AGO	Back in the past
+AHA	"Eureka!"
+AID	Lend a hand
+AIL	Feel under the weather
+AIM	Point at a target
+AIR	What you breathe
+ALE	Pub pour
+ALL	Every last one
+ALP	Swiss peak
+AND	Plus
+ANT	Picnic pest
+ANY	"___ questions?"
+APE	Mimic
+APP	Phone download
+APT	Fitting
+ARC	Rainbow shape
+ARE	"You ___ here" (map words)
+ARK	Noah's boat
+ARM	Limb with an elbow
+ART	Museum display
+ASH	Fireplace residue
+ASK	Pose a question
+ASP	Cleopatra's snake
+ATE	Had dinner
+AWE	Wonderment
+AWL	Leatherworker's tool
+AXE	Lumberjack's tool
+AYE	Sailor's "yes"
+BAD	Not good
+BAG	Grocery sack
+BAN	Prohibit
+BAR	Chocolate unit
+BAT	Baseball stick
+BAY	Body of water off the coast
+BED	Place to sleep
+BEE	Honey maker
+BEG	Plead
+BET	Wager
+BIB	Baby's mealtime wear
+BID	Auction offer
+BIG	Large
+BIN	Recycling container
+BIT	Small amount
+BOA	Feathery scarf
+BOB	Bounce on the water
+BOG	Swampy area
+BOO	Halloween shout
+BOW	Gift topper
+BOX	Cardboard container
+BOY	Lad
+BRA	Undergarment with cups
+BUD	Pal
+BUG	Insect
+BUM	Mooch
+BUN	Burger holder
+BUS	Yellow school vehicle
+BUT	However
+BUY	Purchase
+BYE	"See ya!"
+CAB	Taxi
+CAN	Soda container
+CAP	Bottle top
+CAR	Sedan or coupe
+CAT	Purring pet
+COB	Corn holder
+COD	Fish in fish and chips
+COG	Gear tooth
+COT	Camp bed
+COW	Milk source
+COY	Playfully shy
+CRY	Shed tears
+CUB	Baby bear
+CUE	Pool stick
+CUP	Mug
+CUT	Snip
+DAB	Small amount, as of paint
+DAD	Pop
+DAM	Beaver's construction
+DAY	Twenty-four hours
+DEN	Lion's home
+DEW	Morning moisture
+DID	Performed
+DIE	Cube with pips
+DIG	Use a shovel
+DIM	Not bright
+DIN	Racket
+DIP	Chip go-with
+DOC	Physician, informally
+DOE	Female deer
+DOG	Fetching pet
+DON	Put on
+DOT	Period
+DRY	Not wet
+DUB	Add a voiceover
+DUD	Firework that fails
+DUE	Owed
+DUG	Excavated
+DUO	Pair
+DYE	Hair color product
+EAR	Corn unit
+EAT	Have a meal
+EBB	Recede, as the tide
+EEL	Slippery swimmer
+EGG	Omelet ingredient
+EGO	Sense of self
+ELF	Santa's helper
+ELK	Antlered animal
+ELM	Shade tree
+EMU	Flightless Aussie bird
+END	Finish
+ERA	Period of history
+ERR	Make a mistake
+EVE	Night before
+EWE	Female sheep
+EYE	Organ for seeing
+FAD	Passing craze
+FAN	Cooling device
+FAR	Distant
+FAT	Butter, e.g.
+FAX	Send via phone line, old-style
+FED	Gave dinner to
+FEE	Service charge
+FEW	Not many
+FIB	Small lie
+FIG	Newton fruit
+FIN	Shark's back feature
+FIR	Christmas tree type
+FIT	In shape
+FIX	Repair
+FLU	Winter bug
+FLY	Buzzing pest
+FOE	Enemy
+FOG	Misty cover
+FOR	In favor of
+FOX	Sly animal
+FRY	Cook in oil
+FUN	Enjoyment
+FUR	Pelt
+GAB	Chatter
+GAG	Joke
+GAP	Opening
+GAS	Fuel
+GEL	Hair product
+GEM	Precious stone
+GET	Obtain
+GIG	Musician's job
+GIN	Martini spirit
+GNU	Wildebeest
+GOB	Lump
+GOD	Deity
+GOT	Received
+GUM	Chewy treat
+GUN	Starting pistol, e.g.
+GUT	Belly
+GUY	Fellow
+GYM	Workout spot
+HAD	Owned
+HAM	Overactor
+HAS	Owns
+HAT	Head cover
+HAY	Barn bale
+HEM	Skirt edge
+HEN	Egg layer
+HER	Not him
+HEY	"Yo!"
+HID	Kept out of sight
+HIM	Not her
+HIP	Trendy
+HIS	Not hers
+HIT	Smash success
+HOG	Hoard
+HOP	Bunny's move
+HOT	Scorching
+HOW	"___ are you?"
+HUB	Center of activity
+HUE	Shade
+HUG	Embrace
+HUM	Sing with closed lips
+HUT	Simple shelter
+ICE	Rink surface
+ICY	Slippery, as roads
+ILL	Sick
+INK	Pen fill
+INN	Roadside lodge
+ION	Charged particle
+IRE	Anger
+IRK	Annoy
+ITS	Belonging to it
+IVY	Climbing plant
+JAB	Quick punch
+JAM	Toast spread
+JAR	Pickle container
+JAW	Chin's place
+JAY	Blue bird
+JET	Fast plane
+JOB	Occupation
+JOG	Run slowly
+JOT	Write quickly
+JOY	Delight
+JUG	Pitcher
+KEG	Beer barrel
+KEY	Lock opener
+KID	Child
+KIN	Relatives
+KIT	First-aid ___
+LAB	Science room
+LAD	Young fellow
+LAG	Fall behind
+LAP	Lounge for a cat
+LAW	Statute
+LAY	Put down
+LED	Guided
+LEG	Table support
+LET	Allow
+LID	Pot cover
+LIE	Fib
+LIP	Mouth edge
+LIT	Illuminated
+LOG	Fireplace fuel
+LOT	Parking area
+LOW	Not high
+MAD	Angry
+MAN	Fellow
+MAP	Atlas page
+MAT	Yoga need
+MAY	Spring month
+MEN	Guys
+MET	Encountered
+MIX	Blend
+MOB	Crowd
+MOM	Ma
+MOP	Floor cleaner
+MUD	Wet dirt
+MUG	Coffee holder
+NAB	Catch
+NAG	Pester
+NAP	Short sleep
+NET	Tennis court divider
+NEW	Brand-___
+NIL	Zero
+NIP	Little bite
+NOD	Silent "yes"
+NOR	Neither's partner
+NOT	"___ so fast!"
+NOW	At this moment
+NUN	Convent resident
+NUT	Acorn, e.g.
+OAK	Acorn source
+OAR	Rowing tool
+OAT	Cereal grain
+ODD	Strange
+ODE	Poem of praise
+OFF	Not on
+OFT	Frequently, poetically
+OHM	Unit of resistance
+OIL	Car lubricant
+OLD	Not new
+OLE	Bullfight cheer
+ONE	Single
+OPT	Choose
+ORB	Sphere
+ORE	Mined rock
+OUR	Belonging to us
+OUT	Not in
+OVA	Eggs, in biology
+OWE	Be in debt
+OWL	Hooting bird
+OWN	Possess
+PAD	Notebook
+PAL	Buddy
+PAN	Skillet
+PAR	Golf standard
+PAT	Gentle tap
+PAW	Dog's foot
+PAY	Wages
+PEA	Pod veggie
+PEG	Coat hook
+PEN	Writing tool
+PEP	Energy
+PER	For each
+PET	Cat or dog
+PEW	Church seat
+PIE	Apple dessert
+PIG	Oinker
+PIN	Bowling target
+PIT	Peach center
+PLY	Toilet paper layer
+POD	Pea holder
+POP	Fizzy drink
+POT	Cooking vessel
+PRO	Expert
+PRY	Snoop
+PUB	Bar
+PUN	Wordplay joke
+PUP	Young dog
+PUT	Place
+RAG	Cleaning cloth
+RAM	Male sheep
+RAN	Jogged
+RAP	Hip-hop genre
+RAT	Squealer
+RAW	Uncooked
+RAY	Beam of light
+RED	Stop sign color
+RIB	Tease
+RID	Free (of)
+RIG	Oil platform
+RIM	Edge of a cup
+RIP	Tear
+ROB	Steal from
+ROD	Fishing pole
+ROT	Decay
+ROW	Theater line
+RUB	Massage
+RUG	Floor covering
+RUN	Sprint
+RYE	Bread grain
+SAD	Unhappy
+SAG	Droop
+SAP	Tree fluid
+SAT	Took a seat
+SAW	Carpenter's tool
+SAY	Speak
+SEA	Ocean
+SEE	Notice
+SET	Ready, ___, go
+SEW	Stitch
+SHE	Her, as a subject
+SHY	Bashful
+SIN	Transgression
+SIP	Small drink
+SIR	Knight's title
+SIS	Brother's sibling
+SIT	Command to a dog
+SIX	Half a dozen
+SKI	Slope runner
+SKY	Blue yonder
+SLY	Cunning
+SOB	Cry hard
+SOD	Turf
+SON	Male child
+SOY	Tofu source
+SPA	Relaxing retreat
+SPY	Secret agent
+STY	Pig pen
+SUB	Hoagie
+SUM	Total
+SUN	Daytime star
+TAB	Bar bill
+TAG	You're it game
+TAN	Beach souvenir
+TAP	Faucet
+TAR	Road goo
+TAX	April levy
+TEA	Earl Grey, e.g.
+TEE	Golf peg
+TEN	Perfect score
+THE	Definite article
+TIE	Draw
+TIN	Can metal
+TIP	Gratuity
+TOE	Foot digit
+TON	Heavy weight
+TOO	Also
+TOP	Spinning toy
+TOW	Haul
+TOY	Plaything
+TRY	Attempt
+TUB	Bath
+TUG	Pull
+TWO	Couple
+URN	Coffee dispenser
+USE	Employ
+VAN	Moving vehicle
+VAT	Large tank
+VET	Animal doctor
+VIA	By way of
+VOW	Wedding promise
+WAD	Bunch of cash
+WAG	Wiggle, as a tail
+WAR	Conflict
+WAS	Existed
+WAX	Candle material
+WAY	Path
+WEB	Spider's creation
+WED	Marry
+WET	Soaked
+WHO	"___ goes there?"
+WHY	"How come?"
+WIG	Hairpiece
+WIN	Victory
+WIT	Cleverness
+WOE	Sorrow
+WOK	Stir-fry pan
+WON	Was victorious
+WOO	Court
+WOW	"Amazing!"
+YAK	Shaggy ox
+YAM	Sweet potato
+YAP	Small dog's bark
+YAW	Veer off course
+YEA	Vote in favor
+YEN	Strong desire
+YES	Affirmative
+YET	So far
+YEW	Evergreen tree
+YOU	"___ got this!"
+ZAP	Shock
+ZEN	Calm state
+ZIP	Close a jacket
+ZOO	Animal park
+ABS	Six-pack muscles
+ABE	Honest president, informally
+ABC	Alphabet start
+AHI	Tuna in a poke bowl
+AHS	Sounds at the dentist
+AKA	Alias letters, briefly
+ALA	Pie ___ mode
+ALI	"The Greatest" boxer
+ALT	Computer key next to the space bar
+AMP	Guitarist's speaker, for short
+APR	Loan rate letters: Abbr.
+ARF	Bark
+ATM	Cash dispenser: Abbr.
+ATV	Off-road ride, briefly
+AVE	Blvd. cousin
+AVG	Batting stat: Abbr.
+BAA	Sheep's cry
+BAH	"Humbug!"
+BAM	"Kapow!"
+BEN	Big ___ (London clock)
+BIO	Life story, briefly
+BIZ	Show ___
+BLT	Sandwich with bacon, briefly
+BOP	Bonk on the head
+BOT	Automated program
+BRO	Dude
+BRR	"It's freezing!"
+BFF	Bestie, in texts
+BTW	Text letters before an aside
+BOD	Physique, slangily
+CAD	Scoundrel
+CAM	Web ___
+CAW	Crow's call
+CEO	Company head: Abbr.
+CIA	Spy org.
+CNN	News channel letters
+COO	Pigeon's sound
+COP	Officer
+CPR	Lifesaving technique: Abbr.
+CPA	Tax pro: Abbr.
+CUD	What a cow chews
+CUR	Mangy mutt
+CUZ	Because, informally
+CHI	Greek letter that looks like X
+CON	Pro's opposite
+DEB	Ball honoree, for short
+DEF	Totally, slangily
+DIS	Insult, slangily
+DIY	Home project letters
+DNA	Genetic code: Abbr.
+DOH	Homer Simpson's cry
+DUH	"Obviously!"
+DVD	Movie disc: Abbr.
+DMV	License office: Abbr.
+DOW	___ Jones
+EAU	French water
+ECO	Green prefix
+EEK	"A mouse!"
+EKE	Barely make, with "out"
+EMS	Dashes in typesetting
+EMT	Ambulance worker: Abbr.
+EON	Very long time
+EPA	Environmental agency: Abbr.
+ERE	Before, poetically
+ESC	Keyboard key in the corner
+ESP	Sixth sense: Abbr.
+ETA	Arrival guess: Abbr.
+ETC	And so on: Abbr.
+FAB	Fantastic, briefly
+FAM	Relatives, slangily
+FAQ	Website help page: Abbr.
+FBI	G-men's org.
+FDA	Drug approval agcy.
+FEZ	Tasseled hat
+FOB	Key ring attachment
+FRO	To and ___
+FYI	Memo letters
+GAL	Woman, informally
+GEE	"Golly!"
+GIF	Looping animation
+GOO	Sticky stuff
+GPS	Navigation aid: Abbr.
+GPA	Report card stat: Abbr.
+GOP	Political party: Abbr.
+GUS	Fring of "Breaking Bad"
+HAH	"Gotcha!"
+HAG	Witch
+HBO	Premium TV network
+HEH	Little laugh
+HEW	Chop with an axe
+HEX	Curse
+HIC	Tipsy sound
+HMM	"Let me think..."
+HOE	Garden tool
+HUH	"What?"
+IAN	Fleming who created James Bond
+ICK	"Gross!"
+IDS	Wallet cards, briefly
+IFS	Ands, ___ or buts
+IKE	President Eisenhower's nickname
+ILK	Kind or sort
+IMP	Little rascal
+INC	Corp. cousin
+INS	Connections, so to speak
+IOU	Note of debt
+IPA	Hoppy beer: Abbr.
+IRS	Tax agcy.
+ISM	Doctrine
+JAG	Spree
+JIB	Triangular sail
+JIG	Lively dance
+JOE	Cup of ___ (coffee)
+JUT	Stick out
+JFK	NYC airport code
+KEN	Barbie's boyfriend
+KGB	Soviet spy org.
+KOI	Pond fish
+LAX	Lenient
+LEA	Meadow
+LEI	Hawaiian garland
+LEO	Lion of the zodiac
+LOB	High, soft toss
+LOO	British restroom
+LOP	Cut off, as a branch
+LOX	Bagel topper
+LUG	Carry with effort
+LYE	Soap ingredient
+LOL	Text laugh
+LBS	Weight units: Abbr.
+MAC	Apple computer
+MAG	Glossy publication, briefly
+MAR	Scratch
+MAW	Gaping mouth
+MAX	Upper limit, briefly
+MEH	"Whatever"
+MEW	Kitten's sound
+MID	___-century
+MIC	Karaoke need, briefly
+MOD	Stylish, in the '60s
+MOO	Cow's comment
+MOW	Cut the lawn
+MPH	Speed letters
+MRI	Hospital scan: Abbr.
+MUM	Silent
+MVP	Top player: Abbr.
+MTV	Music video channel
+NAH	"Nope"
+NAY	Vote against
+NBA	Hoops league: Abbr.
+NFL	Gridiron org.
+NHL	Hockey org.
+NEE	Born, on a wedding announcement
+NEO	Keanu's role in "The Matrix"
+NIB	Pen point
+NIX	Veto
+NOG	Holiday drink, informally
+NUB	Small lump
+NYC	The Big Apple: Abbr.
+OAF	Clumsy lout
+OHO	"Aha!"
+OHS	Sounds of surprise
+OKS	Approves
+OMG	Texter's gasp
+OOH	"Fancy!"
+OOF	"That hurt!"
+OPS	Black ___ (covert missions)
+ORC	Tolkien villain
+OUI	Yes, in Paris
+PAC	Political fund: Abbr.
+PAS	Dads
+PBS	"Sesame Street" network
+PEC	Chest muscle, briefly
+PHI	Greek letter after upsilon
+PIC	Photo, briefly
+PIP	Dot on a die
+PIX	Photos, informally
+POI	Hawaiian taro dish
+POW	Comic-book punch sound
+PSI	Tire pressure unit: Abbr.
+PTA	School org.
+PUG	Snub-nosed dog
+PDF	Document format: Abbr.
+PJS	Sleepwear, briefly
+PHD	Advanced degree: Abbr.
+RAD	Awesome, in old slang
+RAH	Cheer
+REC	___ room
+REF	Whistle blower
+REM	Sleep stage letters
+REP	Gym count
+REV	Gun the engine
+RHO	Greek P
+RIO	Brazilian city, for short
+RNA	DNA relative: Abbr.
+ROE	Fish eggs
+RUE	Regret
+RUM	Pirate's drink
+RUT	Monotonous routine
+RPM	Record speed: Abbr.
+SAC	Pouch
+SAX	Jazz horn
+SEC	Moment, briefly
+SHH	"Quiet!"
+SKA	Reggae precursor
+SOP	Soak (up)
+SOS	Distress signal
+SOW	Plant seeds
+SPF	Sunscreen rating letters
+SUE	Take to court
+SUP	"What's ___?"
+SUV	Family vehicle, briefly
+TAD	Smidgen
+TAO	Chinese "way"
+TED	___ Talk
+TIC	Twitch
+TKO	Boxing win, briefly
+TNT	Explosive letters
+TOM	Male cat
+TOR	Rocky peak
+TOT	Toddler
+TSK	Disapproving sound
+TUX	Prom rental
+TUT	King ___
+TBA	To be announced: Abbr.
+TBD	Schedule letters
+UFO	Alien craft: Abbr.
+UGH	"Gross!"
+UKE	Hawaiian strummer, briefly
+UMM	"Let me think..."
+UMP	Baseball official, for short
+UPS	Highs' partners
+URL	Web address: Abbr.
+USB	Computer port letters
+USA	Uncle Sam's land: Abbr.
+UNO	Card game with "Wild" cards
+USO	Troop entertainment org.
+VAX	Shot, informally
+VEG	Relax, with "out"
+VEX	Annoy
+VIE	Compete
+VIM	Vigor
+VIP	Big shot: Abbr.
+VCR	Old tape player: Abbr.
+WAN	Pale
+WEE	Tiny
+WIZ	Whiz kid
+WRY	Dryly humorous
+WII	Nintendo console
+YAY	"Hooray!"
+YEP	"Uh-huh"
+YIN	Yang's partner
+YIP	Puppy's bark
+YUK	Big laugh
+YUM	"Delicious!"
+YUP	"Sure thing"
+YRS	Calendar units: Abbr.
+ZAG	Zig's partner
+ZIG	Zag's partner
+ZIT	Pimple
+EVA	Actress Longoria
+MAE	West of Hollywood
+NED	Flanders of "The Simpsons"
+SAM	Uncle ___
+TIM	Tiny ___
+LOU	Gehrig of baseball
+UMA	Actress Thurman
+RON	Harry Potter's best friend
+AMY	Poehler of "Parks and Recreation"
+ANN	Advice columnist Landers
+ELI	Manning of football
+EMMA	Austen heroine
+YAH	Yes, casually
+WAH	Baby's cry
+HUN	Attila, for one
+GAM	Leg, in old slang
+TAT	Tit for ___
+ROO	Pooh's little friend
+ELS	Chicago trains
+DOS	___ and don'ts
+MAS	Moms
+TIS	"___ the season"
+TIL	Up to, casually
+OCT	Halloween mo.
+DEC	Christmas mo.
+NOV	Thanksgiving mo.
+JAN	New Year's mo.
+FEB	Valentine's mo.
+AUG	Summer mo.
+SEP	Fall mo.
+EST	NYC time zone letters
+PST	West Coast time letters
+MON	Start of the work wk.
+TUE	Day after Mon.
+THU	Day before Fri.
+FRI	TGIF day
+DAP	Fist bump
+ERG	Unit of work in physics
+FEN	Marshy land
+NAN	Grandma, to some
+TAJ	___ Mahal
+UNI	Sea urchin at a sushi bar
+ZEE	Last letter, to Americans
+ESS	S-shaped curve
+NIT	Picky complaint
+ADA	Lovelace of computing history
+ONO	Yoko ___
+UAE	Dubai's country: Abbr.
+EEW	"Gross!"
+AAA	Roadside assistance org.
+ACL	Knee ligament: Abbr.
+AOL	"You've got mail" company
+ASL	Sign language letters: Abbr.
+CBS	"60 Minutes" network
+DVR	TV recording device: Abbr.
+ESPN	Sports channel
+LCD	Screen type: Abbr.
+MPG	Fuel economy letters
+MSG	Flavor enhancer: Abbr.
+NRA	Gun lobby org.
+OED	Big British dictionary: Abbr.
+PGA	Golf org.
+PSA	Public service announcement, briefly
+QTY	Amt.
+TLC	Tender loving care, briefly
+TVS	Screens in living rooms
+UPC	Bar code letters
+WWW	Web address start
+EPI	___Pen
+AFRO	Big, round hairstyle
+OBI	Kimono sash
+EFT	Young newt
+EMO	Angsty music genre
+GEO	Prefix with -graphy
+HRS	Clock units: Abbr.
+INT	Football stat: Abbr.
+KAT	Kit ___ (candy bar)
+MIN	Brief moment: Abbr.
+MOS	Months: Abbr.
+NOS	Numbers: Abbr.
+OPP	Contrary: Abbr.
+PCT	Percentage: Abbr.
+PTS	Score units: Abbr.
+REG	Rule: Abbr.
+SGT	Army rank: Abbr.
+SRS	High school seniors: Abbr.
+TSP	Recipe amt.
+VOL	Book in a series: Abbr.
+YDS	Football units: Abbr.
+ABLE	Competent
+ACHE	Dull pain
+ACID	Lemon juice, chemically
+ACME	Peak
+ACNE	Teen skin woe
+ACRE	Farm measure
+ACTS	Play parts
+ADDS	Tacks on
+AGED	Like fine wine
+AGES	Forever, so to speak
+AHEM	Attention-getting cough
+AIDE	Assistant
+AILS	Troubles
+AIMS	Goals
+AIRS	Puts on ___ (acts snooty)
+AIRY	Light and breezy
+AJAR	Slightly open
+AKIN	Related
+ALAS	"Sadly..."
+ALES	Pub orders
+ALLY	Partner in a war
+ALMS	Charity for the poor
+ALOE	Soothing plant gel
+ALSO	In addition
+ALTO	Choir voice
+AMEN	Prayer ender
+AMID	In the middle of
+AMMO	Bullets, informally
+ANEW	Over again
+ANTE	Poker stake
+ANTS	Colony members
+APES	Gorillas and chimps
+APEX	Summit
+APPS	Phone downloads
+AQUA	Blue-green
+ARCH	Gateway shape
+ARCS	Curves
+AREA	Length times width
+ARIA	Opera solo
+ARID	Desert-dry
+ARMS	Weapons
+ARMY	Soldiers
+ARTS	Painting and sculpture
+ARTY	Pretentiously creative
+ASKS	Inquires
+ATOM	Tiny particle
+ATOP	On the summit of
+AUNT	Mom's sister
+AURA	Vibe
+AUTO	Car
+AVID	Enthusiastic
+AWAY	Not home
+AWED	Amazed
+AWRY	Off course
+AXED	Fired
+AXES	Lumberjacks' tools
+AXIS	Earth's spin line
+AXLE	Wheel connector
+AYES	Votes in favor
+ABBA	"Dancing Queen" group
+ABEL	Cain's brother
+ACES	Nails, as a test
+AFAR	At a distance
+AHOY	Sailor's greeting
+ALPS	Swiss range
+ANNA	Elsa's sister in "Frozen"
+ARES	Greek god of war
+ASIA	Largest continent
+AVOW	Declare openly
+AMPS	Concert speakers
+ANON	Soon, old-style
+AWOL	Absent without leave
+ARGH	Pirate's grunt
+ALUM	Graduate, informally
+ANDS	No ifs, ___ or buts
+BABE	Sweetheart
+BABY	Infant
+BACK	Spine's location
+BAGS	Luggage
+BAIL	Jail release money
+BAIT	Worm on a hook
+BAKE	Make cookies
+BALD	Hairless
+BALE	Hay bundle
+BALL	Cinderella's event
+BALM	Soothing ointment
+BAND	Rock group
+BANG	Loud noise
+BANK	Money keeper
+BANS	Prohibits
+BARB	Cutting remark
+BARD	Shakespeare, with "the"
+BARE	Naked
+BARK	Dog's sound
+BARN	Farm building
+BARS	Prison features
+BASE	Home plate, e.g.
+BASH	Big party
+BASS	Low voice
+BATH	Tub soak
+BATS	Cave dwellers
+BAWL	Cry loudly
+BEAD	Necklace bit
+BEAK	Bird's bill
+BEAM	Smile broadly
+BEAN	Pinto or lima
+BEAR	Grizzly
+BEAT	Defeat
+BEAU	Boyfriend
+BEDS	Garden plots
+BEEF	Burger meat
+BEEN	"Have you ever ___ there?"
+BEEP	Horn sound
+BEER	Brew
+BEES	Hive members
+BEET	Red root vegetable
+BEGS	Pleads
+BELL	Ding-dong maker
+BELT	Pants holder-upper
+BEND	Curve
+BENT	Crooked
+BEST	Top
+BETS	Wagers
+BIAS	Prejudice
+BIBS	Lobster-dinner wear
+BIDE	___ one's time
+BIDS	Auction offers
+BIKE	Two-wheeler
+BILE	Bitterness
+BILL	Duck's beak
+BIND	Tight spot
+BIRD	Robin or wren
+BITE	Snack
+BITS	Small pieces
+BLAB	Spill the beans
+BLAH	Dull
+BLED	Ran, as colors
+BLEW	Exhaled hard
+BLIP	Radar dot
+BLOB	Shapeless mass
+BLOC	Voting group
+BLOG	Online journal
+BLOT	Stain
+BLOW	Puff
+BLUE	Sad
+BLUR	Fuzzy image
+BOAR	Wild pig
+BOAT	Yacht
+BODY	Torso
+BOIL	Heat to 212 degrees
+BOLD	Daring
+BOLT	Lightning flash
+BOMB	Total flop
+BOND	007
+BONE	Dog's chew toy
+BONY	Skinny
+BOOK	Novel
+BOOM	Explosion sound
+BOON	Blessing
+BOOR	Rude person
+BOOS	Jeers
+BOOT	Cowboy's footwear
+BORE	Dull person
+BORN	Brought into the world
+BOSS	Supervisor
+BOTH	The two
+BOUT	Boxing match
+BOWL	Cereal holder
+BOWS	Takes a curtain call
+BOXY	Square-shaped
+BRAG	Boast
+BRAN	Muffin fiber
+BRAT	Spoiled kid
+BRAY	Donkey's sound
+BRED	Raised
+BREW	Coffee or beer
+BRIE	Soft French cheese
+BRIM	Hat edge
+BROS	Dudes
+BROW	Forehead
+BUCK	Male deer
+BUDS	Pals
+BUFF	Muscular
+BUGS	Insects
+BULB	Lamp part
+BULK	Size
+BULL	Rodeo animal
+BUMP	Fist ___
+BUNK	Camp bed
+BUNS	Hamburger holders
+BUOY	Floating marker
+BURN	Sick insult
+BURP	Belch
+BURY	Inter
+BUSH	Shrub
+BUSY	Occupied
+BUYS	Purchases
+BUZZ	Bee's sound
+BYTE	Eight bits
+BALI	Indonesian island
+BERN	Swiss capital
+BONO	U2 frontman
+CABS	Taxis
+CAFE	Coffee shop
+CAGE	Bird's home
+CAKE	Birthday dessert
+CALF	Young cow
+CALL	Phone
+CALM	Serene
+CAME	Arrived
+CAMP	Summer getaway for kids
+CANE	Walking stick
+CANS	Soda containers
+CAPE	Superhero's wear
+CAPS	Bottle tops
+CARD	Birthday greeting
+CARE	Concern
+CARS	Vehicles
+CART	Shopping ___
+CASE	Detective's job
+CASH	Money
+CAST	Actors
+CATS	Broadway musical with "Memory"
+CAVE	Bat's home
+CEDE	Give up
+CELL	Phone, informally
+CENT	Penny
+CHAI	Spiced tea
+CHAP	Fellow
+CHAR	Blacken on the grill
+CHAT	Talk
+CHEF	Kitchen boss
+CHEW	Gnaw
+CHIC	Stylish
+CHIN	Face part
+CHIP	Tortilla ___
+CHOP	Karate move
+CHOW	Grub
+CITE	Quote
+CITY	Metropolis
+CLAD	Dressed
+CLAM	Chowder bit
+CLAN	Family group
+CLAP	Applaud
+CLAW	Crab's pincher
+CLAY	Potter's material
+CLIP	Paper holder
+CLOD	Lump of dirt
+CLOG	Plug up
+CLOT	Coagulate
+CLUB	Golf stick
+CLUE	Hint
+COAL	Lump in a stocking
+COAT	Winter wear
+COAX	Persuade gently
+CODA	Musical ending
+CODE	Secret message
+COED	Like mixed dorms
+COIL	Spiral
+COIN	Quarter
+COLA	Soda type
+COLD	Chilly
+COLT	Young horse
+COMA	Deep unconsciousness
+COMB	Hair tool
+COME	Arrive
+CONE	Ice cream holder
+CONS	Downsides
+COOK	Chef
+COOL	Chill
+COOP	Chicken house
+COPE	Manage
+COPS	Police
+COPY	Duplicate
+CORD	Rope
+CORE	Apple center
+CORK	Wine stopper
+CORN	Cob veggie
+COST	Price
+COZY	Snug
+COTS	Camp beds
+COUP	Overthrow
+COVE	Small bay
+COWS	Grazing herd
+CRAB	Grump
+CRAM	Study hard at the last minute
+CREW	Ship's workers
+CRIB	Baby bed
+CROP	Harvest
+CROW	Black bird
+CUBE	Ice ___
+CUBS	Chicago team
+CUED	Signaled
+CUES	Signals
+CUFF	Sleeve end
+CULT	Devoted following
+CUPS	Mugs
+CURB	Street edge
+CURD	Cheese bit
+CURE	Remedy
+CURL	Ringlet
+CUTE	Adorable
+CUTS	Snips
+CYAN	Printer ink color
+CZAR	Russian ruler
+CUBA	Havana's land
+CHAD	Ballot bit
+CIAO	"Bye!" in Italy
+CHIA	Pudding seed
+DABS	Pats lightly
+DADS	Pops
+DAFT	Silly
+DAME	Title for Judi Dench
+DAMP	Slightly wet
+DAMS	Beaver projects
+DARE	Truth or ___
+DARK	Unlit
+DARN	"Shoot!"
+DART	Pub game projectile
+DASH	Hundred-yard ___
+DATA	Info
+DATE	Calendar square
+DAWN	Daybreak
+DAYS	Week units
+DAZE	Stupor
+DEAD	Out of battery
+DEAF	Unable to hear
+DEAL	Bargain
+DEAN	College official
+DEAR	Letter opener
+DEBT	What you owe
+DECK	Ship's floor
+DEED	Act
+DEEM	Judge
+DEEP	Profound
+DEER	Bambi, for one
+DEFT	Skillful
+DEFY	Disobey
+DELI	Sandwich shop
+DEMO	Sample recording
+DENS	Lairs
+DENT	Fender bender result
+DENY	Refuse to admit
+DESK	Office furniture
+DIAL	Clock face
+DICE	Cube finely
+DIED	Gave out, as a battery
+DIES	Stops running, as an engine
+DIET	Weight-loss plan
+DIGS	Living quarters, slangily
+DIME	Ten cents
+DINE	Eat out
+DING	Microwave sound
+DINO	T. rex, informally
+DIPS	Salsa and guacamole
+DIRE	Desperate
+DIRT	Gossip
+DISC	Frisbee, e.g.
+DISH	Plate
+DISK	Hockey puck shape
+DIVA	Opera star
+DIVE	Plunge
+DOCK	Pier
+DOER	Go-getter
+DOES	Female deer
+DOGS	Puppies, grown up
+DOLE	Hand (out)
+DOLL	Barbie, for one
+DOME	Rounded roof
+DONE	Finished
+DOOM	Ruin
+DOOR	Knock-knock spot
+DOPE	Cool, slangily
+DORM	Campus residence
+DOSE	Medicine amount
+DOTE	Fuss (over)
+DOTS	Polka ___
+DOVE	Peace symbol
+DOWN	Glum
+DOZE	Nap
+DRAB	Dull
+DRAG	Bore
+DRAW	Sketch
+DREW	Sketched
+DRIP	Leaky faucet sound
+DROP	Let fall
+DRUM	Snare, e.g.
+DUAL	Twofold
+DUCK	Quacker
+DUCT	Air passage
+DUDE	Bro
+DUEL	Pistols-at-dawn fight
+DUES	Membership fees
+DUET	Song for two
+DUKE	Royal title
+DULL	Boring
+DULY	Properly
+DUMP	Landfill
+DUNE	Sandy hill
+DUNK	Slam ___
+DUOS	Pairs
+DUSK	Twilight
+DUST	Wipe the furniture
+DUTY	Obligation
+DYED	Colored, as hair
+DYES	Tints
+EACH	Apiece
+EARL	British noble
+EARN	Make money
+EARS	Corn units
+EASE	Comfort
+EAST	Sunrise direction
+EASY	Simple
+EATS	Food, slangily
+EBBS	Recedes
+ECHO	Canyon reply
+EDGE	Brink
+EDGY	Provocative
+EDIT	Revise
+EELS	Slippery swimmers
+EGGS	Omelet ingredients
+EGOS	Big heads
+ELMS	Shade trees
+ELSE	Otherwise
+EMIT	Give off
+ENDS	Finishes
+ENVY	Green-eyed monster
+EPIC	Awesome, in slang
+ERAS	Historical periods
+ERRS	Messes up
+EVEN	Divisible by two
+EVER	At any time
+EVIL	Wicked
+EXAM	Final, e.g.
+EXIT	Way out
+EXPO	World's fair
+EYED	Looked at
+EYES	Peepers
+EMUS	Big flightless birds
+EDEN	Garden of paradise
+ELMO	Red Muppet
+ELSA	Snow queen of "Frozen"
+ENYA	"Orinoco Flow" singer
+ERIE	One of the Great Lakes
+ETNA	Sicilian volcano
+EURO	Currency in France and Italy
+EGAD	"Goodness!"
+EMMY	TV award
+ETCH	Engrave
+EDDY	Whirlpool
+ELLA	Jazz great Fitzgerald
+ETTA	"At Last" singer James
+EKES	Scrapes (out)
+EONS	Ages and ages
+EXEC	Suit, briefly
+ERGO	Therefore
+EPEE	Fencing sword
+FACE	Clock front
+FACT	Truth
+FADE	Lose color
+FADS	Crazes
+FAIL	Flunk
+FAIR	County event with rides
+FAKE	Phony
+FALL	Autumn
+FAME	Celebrity
+FANG	Vampire's tooth
+FANS	Supporters
+FARE	Bus price
+FARM	Place with a silo
+FAST	Speedy
+FATE	Destiny
+FAWN	Baby deer
+FAZE	Rattle
+FEAR	Dread
+FEAT	Achievement
+FEED	Social media scroll
+FEEL	Touch
+FEES	Charges
+FEET	Toes are on them
+FELL	Tumbled
+FELT	Sensed
+FERN	Leafy shade plant
+FEST	Party, informally
+FETA	Greek salad cheese
+FEUD	Long-running quarrel
+FIBS	White lies
+FIGS	Newton fillers
+FILE	Nail ___
+FILL	Top off
+FILM	Movie
+FIND	Locate
+FINE	Okay
+FINS	Flippers
+FIRE	Blaze
+FIRM	Company
+FISH	Go angling
+FIST	Clenched hand
+FITS	Tantrums
+FIVE	High ___
+FIZZ	Soda's bubbles
+FLAB	Excess fat
+FLAG	Stars and Stripes
+FLAP	Wing movement
+FLAT	Like a punctured tire
+FLAW	Defect
+FLEA	Dog pest
+FLED	Ran away
+FLEE	Run away
+FLEW	Soared
+FLEX	Show off muscles
+FLIP	Pancake maneuver
+FLIT	Dart about
+FLOP	Box office bomb
+FLOW	Stream
+FLUB	Botch
+FLUE	Chimney passage
+FLUX	Constant change
+FOAL	Baby horse
+FOAM	Latte topper
+FOES	Enemies
+FOGS	Mists (up)
+FOIL	Aluminum wrap
+FOLD	Crease
+FOLK	Acoustic music genre
+FOND	Affectionate
+FONT	Typeface
+FOOD	Grub
+FOOL	Jester
+FOOT	Twelve inches
+FORD	Car company with a Mustang
+FORE	Golfer's warning
+FORK	Dinner utensil
+FORM	Paperwork
+FORT	Stronghold
+FOUL	Out-of-bounds hit
+FOUR	Square number
+FOWL	Poultry
+FOXY	Attractive
+FRAY	Unravel
+FREE	No charge
+FRET	Worry
+FROG	Kermit, for one
+FROM	Gift tag word
+FUEL	Gas
+FULL	Stuffed
+FUME	Seethe
+FUND	Finance
+FUNK	Bad mood
+FURY	Rage
+FUSE	Firecracker part
+FUSS	Commotion
+FUZZ	Peach covering
+FIJI	Pacific island nation
+FIDO	Classic dog name
+GAGS	Jokes
+GAIN	Profit
+GAIT	Walking style
+GALA	Fancy party
+GALE	Strong wind
+GALS	Women, informally
+GAME	Board ___
+GANG	Crew
+GAPE	Stare openmouthed
+GAPS	Openings
+GARB	Clothing
+GASH	Deep cut
+GASP	Sharp intake of breath
+GATE	Fence opening
+GAVE	Donated
+GAZE	Stare
+GEAR	Equipment
+GEEK	Nerd
+GELS	Hair products
+GEMS	Jewels
+GENE	DNA unit
+GENT	Courteous fellow, briefly
+GERM	Microbe
+GETS	Understands
+GIFT	Present
+GIGS	Musicians' jobs
+GILL	Fish's breathing organ
+GIRL	Lass
+GIST	Main idea
+GIVE	Donate
+GLAD	Happy
+GLEE	Joy
+GLEN	Valley
+GLIB	Smooth-talking
+GLOB	Blob
+GLOW	Shine softly
+GLUE	Sticky stuff
+GLUM	Gloomy
+GLUT	Oversupply
+GNAT	Tiny biting fly
+GNAW	Chew on
+GOAL	Aim
+GOAT	Greatest of all time, in sports slang
+GOBS	Lots
+GODS	Zeus and Apollo
+GOES	Leaves
+GOLD	First-place medal
+GOLF	Sport with tees
+GONE	Departed
+GONG	Large cymbal
+GOOD	Fine
+GOOF	Blunder
+GOOP	Gunk
+GORE	Blood, in horror films
+GORY	Bloody
+GOSH	"Golly!"
+GOWN	Formal dress
+GRAB	Snatch
+GRAD	Diploma holder, briefly
+GRAM	Metric weight unit
+GRAY	Silver-haired
+GREW	Got bigger
+GRID	Crossword pattern
+GRIM	Bleak
+GRIN	Big smile
+GRIP	Hold tight
+GRIT	Courage
+GROW	Get bigger
+GRUB	Food
+GULF	___ of Mexico
+GULL	Seabird
+GULP	Swallow quickly
+GUMS	Teeth holders
+GUNK	Goo
+GURU	Spiritual teacher
+GUSH	Spurt
+GUST	Burst of wind
+GUTS	Courage
+GUYS	Fellows
+GYMS	Workout places
+GAGA	Lady ___
+GOTH	Black-clad subculture member
+GUAM	U.S. Pacific territory
+HACK	Life ___ (clever trick)
+HAIL	Icy precipitation
+HAIR	Barber's sweepings
+HALF	Fifty percent
+HALL	Corridor
+HALO	Angel's ring
+HALT	Stop
+HAMS	Overactors
+HAND	Applause, so to speak
+HANG	Chill out, slangily
+HARD	Difficult
+HARE	Tortoise's rival
+HARM	Hurt
+HARP	Angelic instrument
+HASH	Corned beef dish
+HATE	Loathe
+HATS	Caps and fedoras
+HAUL	Lug
+HAVE	Own
+HAWK	Bird of prey
+HAZE	Smog
+HAZY	Foggy
+HEAD	Boss
+HEAL	Mend
+HEAP	Pile
+HEAR	Listen
+HEAT	Warmth
+HEED	Pay attention to
+HEEL	Shoe part
+HEIR	Inheritor
+HELD	Grasped
+HELM	Ship's wheel
+HELP	"Mayday!"
+HEMP	Rope fiber
+HEMS	Skirt edges
+HENS	Egg layers
+HERB	Basil or thyme
+HERD	Group of cattle
+HERE	Present
+HERO	Sub sandwich
+HERS	Not his
+HEWN	Chopped
+HIDE	Conceal
+HIGH	Lofty
+HIKE	Trail walk
+HILL	Small mountain
+HILT	Sword handle
+HINT	Clue
+HIPS	Hula movers
+HIRE	Employ
+HISS	Snake's sound
+HITS	Chart-toppers
+HIVE	Bee home
+HOAX	Prank
+HOES	Garden tools
+HOGS	Pigs
+HOLD	Grasp
+HOLE	Golf target
+HOLY	Sacred
+HOME	Where the heart is
+HONE	Sharpen
+HONK	Car horn sound
+HOOD	Car part over the engine
+HOOF	Horse's foot
+HOOK	Fishing gear
+HOOP	Basketball rim
+HOOT	Owl's call
+HOPE	Optimism
+HOPS	Beer ingredient
+HORN	Rhino feature
+HOSE	Garden tube
+HOST	Party giver
+HOUR	Sixty minutes
+HOWL	Wolf's cry
+HUBS	Centers
+HUES	Colors
+HUFF	Puff's partner
+HUGE	Gigantic
+HUGS	Embraces
+HULA	Hawaiian dance
+HULK	Big green Avenger
+HULL	Ship's body
+HUMP	Camel feature
+HUMS	Sings without words
+HUNG	Suspended
+HUNK	Big piece
+HUNT	Search
+HURL	Throw hard
+HURT	Injured
+HUSH	"Quiet!"
+HUSK	Corn covering
+HUTS	Simple shelters
+HYMN	Church song
+HYPE	Buzz
+HAHA	"Very funny"
+HIYA	"Howdy!"
+ICED	Like some coffee
+ICES	Clinches, as a win
+ICON	Desktop symbol
+IDEA	Brainstorm
+IDLE	Inactive
+IDOL	Pop star
+IFFY	Uncertain
+INCH	Ruler unit
+INFO	Data, briefly
+INKS	Signs, as a contract
+INKY	Pitch-black
+INNS	B&Bs
+INTO	Fond of
+IONS	Charged particles
+IOTA	Tiny bit
+IRIS	Eye part
+IRKS	Annoys
+IRON	Press clothes
+ISLE	Small island
+ITCH	Scratch's target
+ITEM	Couple, in gossip columns
+IOWA	Hawkeye State
+IRAN	Tehran's land
+IRAQ	Baghdad's land
+ICKY	Gross
+JABS	Quick punches
+JACK	Card below a queen
+JADE	Green gem
+JAIL	Lockup
+JAMS	Traffic snarls
+JARS	Canning containers
+JAWS	Shark movie
+JAZZ	Genre of Miles Davis
+JEAN	Denim fabric
+JEEP	Rugged vehicle
+JEER	Boo
+JELL	Come together
+JERK	Sudden pull
+JEST	Joke
+JETS	Planes
+JINX	Bad-luck charm
+JIVE	Swing dance
+JOBS	Positions
+JOCK	Athlete
+JOGS	Runs slowly
+JOIN	Sign up
+JOKE	Punch line setup
+JOLT	Sudden shock
+JOTS	Writes quickly
+JOYS	Delights
+JUDO	Martial art
+JUGS	Pitchers
+JUMP	Leap
+JUNE	Wedding month
+JUNK	Clutter
+JURY	Courtroom panel
+JUST	Fair
+JAVA	Coffee, slangily
+JEDI	Luke Skywalker, e.g.
+KALE	Leafy superfood
+KEEL	Boat's bottom
+KEEN	Eager
+KEEP	Retain
+KEGS	Beer barrels
+KELP	Seaweed
+KEPT	Retained
+KEYS	Piano parts
+KICK	Punt
+KIDS	Children
+KILN	Pottery oven
+KILT	Scottish skirt
+KIND	Nice
+KING	Chess piece
+KISS	Smooch
+KITE	Windy-day toy
+KITS	Sets of supplies
+KIWI	Fuzzy fruit
+KNEE	Leg joint
+KNEW	Was aware
+KNIT	Make a scarf, perhaps
+KNOB	Door handle
+KNOT	Tangle
+KNOW	Be aware of
+KILO	Metric weight, briefly
+KETO	Low-carb diet
+KOOK	Oddball
+LABS	Science rooms
+LACE	Tie, as shoes
+LACK	Shortage
+LACY	Frilly
+LADS	Young chaps
+LADY	Gentlewoman
+LAGS	Trails
+LAID	Placed
+LAIR	Den
+LAKE	Tahoe, e.g.
+LAMB	Baby sheep
+LAMP	Light source
+LAND	Touch down
+LANE	Bowling alley strip
+LAPS	Pool lengths
+LARD	Cooking fat
+LARK	Songbird
+LASH	Eye hair
+LASS	Young woman
+LAST	Final
+LATE	Tardy
+LAUD	Praise
+LAVA	Volcanic flow
+LAWN	Yard grass
+LAWS	Rules
+LAYS	Puts down
+LAZY	Idle
+LEAD	Pencil filler
+LEAF	Tree part
+LEAK	Drip
+LEAN	Slim
+LEAP	Jump
+LEFT	Departed
+LEGS	Table supports
+LEND	Loan
+LENS	Camera part
+LENT	Loaned
+LESS	Fewer
+LEST	For fear that
+LETS	Allows
+LEVY	Tax
+LIAR	Fibber
+LICE	Head pests
+LICK	Taste with the tongue
+LIDS	Pot tops
+LIED	Fibbed
+LIES	Fibs
+LIFE	Existence
+LIFT	Elevator, in London
+LIKE	Social media thumbs-up
+LILY	Easter flower
+LIMB	Arm or leg
+LIME	Margarita garnish
+LIMO	Fancy ride
+LIMP	Walk unevenly
+LINE	Queue
+LINK	Chain part
+LINT	Dryer residue
+LION	King of the jungle
+LIPS	Kissers
+LISP	Speech impediment
+LIST	To-do ___
+LIVE	Not taped
+LOAD	Burden
+LOAF	Bread unit
+LOAN	Borrowed money
+LOBE	Earring spot
+LOBS	High tosses
+LOCK	Key's partner
+LOFT	Attic space
+LOGO	Brand symbol
+LOGS	Cabin material
+LOIN	Pork cut
+LONE	Solitary
+LONG	Lengthy
+LOOK	Glance
+LOOM	Weaving machine
+LOON	Diving bird
+LOOP	Roller coaster feature
+LOOT	Plunder
+LORD	Noble
+LORE	Legends
+LOSE	Misplace
+LOSS	Defeat
+LOST	Misplaced
+LOTS	Plenty
+LOUD	Noisy
+LOVE	Zero, in tennis
+LOWS	Weather report figures
+LUAU	Hawaiian party
+LUCK	Fortune
+LULL	Quiet period
+LUMP	Bump
+LUNG	Breathing organ
+LURE	Fishing bait
+LURK	Sneak around
+LUSH	Green and thick
+LIMA	Peru's capital
+LOKI	Thor's mischievous brother
+LEGO	Toy brick brand
+LEIA	Princess in "Star Wars"
+LAOS	Vientiane's land
+LIRA	Old Italian money
+LUTE	Renaissance string instrument
+MACE	Medieval weapon
+MADE	Created
+MAID	Housekeeper
+MAIL	Letters
+MAIN	Primary
+MAKE	Create
+MALE	Masculine
+MALL	Shopping center
+MALT	Milkshake flavor
+MAMA	Mom
+MANE	Lion's hair
+MANY	Lots
+MAPS	Atlas pages
+MARE	Female horse
+MARK	Grade
+MART	Store
+MASH	Puree, as potatoes
+MASK	Halloween disguise
+MASS	Weight, in physics
+MAST	Sail holder
+MATE	Spouse
+MATH	Algebra class subject
+MATS	Yoga needs
+MAUL	Attack savagely
+MAZE	Labyrinth
+MEAL	Dinner
+MEAN	Unkind
+MEAT	Steak, e.g.
+MEEK	Timid
+MEET	Track event
+MELD	Merge
+MELT	Thaw
+MEME	Viral image
+MEMO	Office note
+MEND	Repair
+MENU	Restaurant list
+MEOW	Cat's call
+MESA	Flat-topped hill
+MESH	Netting
+MESS	Clutter
+MICE	Cheese lovers, in cartoons
+MILD	Not spicy
+MILE	5,280 feet
+MILK	Cereal pour
+MILL	Grind
+MIME	Silent performer
+MIND	Intellect
+MINE	Not yours
+MINI	Small skirt
+MINT	Breath freshener
+MISS	Not hit
+MIST	Fine spray
+MITT	Catcher's glove
+MOAN	Groan
+MOAT	Castle ditch
+MOBS	Crowds
+MOCK	Make fun of
+MODE	Style
+MOJO	Magic charm
+MOLD	Fungus
+MOLE	Burrowing animal
+MOLT	Shed feathers
+MOMS	Mothers
+MONK	Monastery resident
+MOOD	Vibe
+MOON	Night light
+MOOR	Dock, as a boat
+MOOS	Cow sounds
+MOOT	Debatable
+MOPE	Sulk
+MOPS	Floor cleaners
+MORE	Additional
+MOSS	Rolling stone's lack
+MOST	Majority
+MOTH	Flame-drawn insect
+MOVE	Relocate
+MUCH	A lot
+MUCK	Mud
+MUGS	Coffee cups
+MULE	Stubborn animal
+MULL	Ponder
+MUSE	Inspiration
+MUSH	Sled dog command
+MUSK	Cologne scent
+MUST	Have to
+MUTE	TV remote button
+MUTT	Mixed-breed dog
+MYTH	Legend
+MAUI	Hawaiian island
+MARS	Red Planet
+MALI	Timbuktu's country
+METS	Queens team
+MEGA	Huge, as a prefix
+NABS	Catches
+NAGS	Pesters
+NAIL	Hammer's target
+NAME	Moniker
+NAPE	Neck's back
+NAPS	Short sleeps
+NAVY	Dark blue
+NEAR	Close
+NEAT	Tidy
+NECK	Giraffe feature
+NEED	Require
+NEON	Glowing sign gas
+NERD	Geek
+NEST	Bird's home
+NETS	Catches
+NEWS	Current events
+NEWT	Small amphibian
+NEXT	Following
+NICE	Pleasant
+NICK	Small cut
+NINE	Cloud number?
+NODE	Network point
+NODS	Agrees silently
+NONE	Not any
+NOOK	Cozy corner
+NOON	Midday
+NOPE	"Nah"
+NORM	Standard
+NOSE	Sniffer
+NOSY	Prying
+NOTE	Memo
+NOUN	Person, place or thing
+NUKE	Microwave
+NULL	Void
+NUMB	Without feeling
+NUNS	Sisters
+NUTS	Crazy
+NAAN	Indian flatbread
+NALA	Simba's mate
+NEMO	Clownfish of film
+NILE	Egyptian river
+NOAH	Ark builder
+NOEL	Christmas carol
+NOVA	Exploding star
+NAPA	California wine valley
+NASA	Space agency
+OAFS	Clumsy lugs
+OAKS	Acorn trees
+OARS	Rowing blades
+OATH	Pledge
+OATS	Horse feed
+OBEY	Follow orders
+OBOE	Woodwind instrument
+ODDS	Chances
+ODES	Lyric poems
+ODOR	Smell
+OGLE	Stare at
+OGRE	Shrek, for one
+OILS	Painter's medium
+OILY	Greasy
+OKAY	Fine
+OKRA	Gumbo veggie
+OMEN	Sign of things to come
+OMIT	Leave out
+ONCE	One time
+ONES	Singles
+ONLY	Sole
+ONTO	Aware of
+ONUS	Burden
+ONYX	Black gem
+OOZE	Seep
+OPAL	October birthstone
+OPEN	Unlocked
+OPTS	Chooses
+OPUS	Masterpiece
+ORAL	Spoken
+ORBS	Spheres
+ORCA	Killer whale
+ORES	Mined rocks
+OUCH	"That hurts!"
+OURS	Not theirs
+OUST	Kick out
+OUTS	Baseball inning trio
+OVAL	Egg shape
+OVEN	Baking place
+OVER	Finished
+OWED	Was in debt
+OWES	Is in debt
+OWLS	Night hooters
+OWNS	Possesses
+OXEN	Plow pullers
+OHIO	Buckeye State
+OMAN	Muscat's land
+OREO	Twist-apart cookie
+OSLO	Norway's capital
+ODIN	Thor's father
+OLAF	Snowman in "Frozen"
+OAHU	Honolulu's island
+ORZO	Rice-shaped pasta
+PACE	Speed
+PACK	Wolf group
+PACT	Agreement
+PADS	Notebooks
+PAGE	Book leaf
+PAID	Settled, as a bill
+PAIL	Bucket
+PAIN	Ache
+PAIR	Couple
+PALE	Ashen
+PALM	Tropical tree
+PALS	Buddies
+PANE	Window glass
+PANS	Skillets
+PANT	Breathe hard
+PAPA	Dad
+PARE	Peel
+PARK	Leave the car
+PART	Hair dividing line
+PASS	Hall ___
+PAST	History
+PATH	Trail
+PATS	Light taps
+PAVE	Blacktop
+PAWN	Chess piece
+PAWS	Pet's feet
+PAYS	Foots the bill
+PEAK	Summit
+PEAL	Ring, as bells
+PEAR	Bartlett fruit
+PEAS	Pod contents
+PEAT	Bog fuel
+PECK	Kiss quickly
+PEEK	Quick look
+PEEL	Banana skin
+PEEP	Chick's sound
+PEER	Equal
+PEGS	Coat hangers
+PELT	Fur
+PENS	Writing tools
+PERK	Job bonus
+PERM	Curly hairdo
+PEST	Nuisance
+PETS	Cats and dogs
+PEWS	Church seats
+PICK	Choose
+PIER	Dock
+PIES	Bakery items
+PIGS	Oinkers
+PIKE	Toothy freshwater fish
+PILE	Heap
+PILL	Tablet
+PINE	Evergreen tree
+PINK	Flamingo color
+PINS	Bowling targets
+PINT	Pub glass
+PIPE	Plumbing tube
+PITS	Cherry centers
+PITY	Sympathy
+PLAN	Scheme
+PLAY	Broadway show
+PLEA	Appeal
+PLOD	Trudge
+PLOT	Storyline
+PLOW	Snow clearer
+PLOY	Tactic
+PLUG	Outlet insert
+PLUM	Purple fruit
+PLUS	Bonus
+POEM	Sonnet, e.g.
+POET	Verse writer
+POKE	Prod
+POLE	Fishing rod
+POLL	Survey
+POLO	Sport on horseback
+POMP	Ceremony
+POND	Duck's home
+PONY	Small horse
+POOL	Swimming spot
+POOR	Broke
+POPE	Vatican leader
+POPS	Dad
+PORE	Skin opening
+PORK	Bacon source
+PORT	Harbor
+POSE	Strike a ___
+POSH	Fancy
+POST	Share online
+POUR	Rain hard
+POUT	Sulk
+PRAM	Baby carriage, in Britain
+PRAY	Say grace
+PREP	Get ready
+PREY	Hunter's target
+PROD	Nudge
+PROM	High school dance
+PROP	Stage item
+PROS	Experts
+PROW	Ship's front
+PUCK	Hockey disk
+PUFF	Cream ___
+PUGS	Wrinkly dogs
+PULL	Tug
+PULP	Orange juice bits
+PUMA	Mountain lion
+PUMP	Gas station fixture
+PUNK	Rock genre
+PUNS	Wordplay jokes
+PUNT	Fourth-down kick
+PUNY	Weak
+PUPS	Young dogs
+PURE	Unmixed
+PURR	Cat's sound
+PUSH	Shove
+PUTT	Gentle golf stroke
+PERU	Lima's land
+PESO	Mexican money
+PITA	Pocket bread
+PSST	"Hey, over here!"
+PHEW	"That was close!"
+QUAD	Campus courtyard
+QUIT	Give up
+QUIZ	Pop test
+RACE	Run
+RACK	Coat holder
+RAFT	River floater
+RAGE	Fury
+RAGS	Tattered clothes
+RAID	Surprise attack
+RAIL	Train track
+RAIN	Shower
+RAKE	Leaf gatherer
+RAMP	On-___ (highway entrance)
+RAMS	Male sheep
+RANG	Called
+RANK	Status
+RANT	Tirade
+RAPS	Knocks
+RARE	Like some steaks
+RASH	Hasty
+RATE	Grade
+RATS	"Darn!"
+RAVE	Glowing review
+RAYS	Beams
+RAZE	Tear down
+READ	Peruse
+REAL	Genuine
+REAP	Harvest
+REAR	Back
+REDO	Do over
+REED	Clarinet part
+REEF	Coral formation
+REEK	Stink
+REEL	Fishing rod part
+REFS	Game officials
+REIN	Horse strap
+RELY	Depend
+RENT	Lease
+REPS	Gym counts
+REST	Relax
+RIBS	Barbecue order
+RICE	Sushi base
+RICH	Wealthy
+RIDE	Amusement park attraction
+RIFT	Split
+RILE	Irk
+RIMS	Hoops
+RIND	Melon skin
+RING	Engagement band
+RINK	Skating spot
+RIOT	Hilarious person
+RIPE	Ready to eat
+RIPS	Tears
+RISE	Get up
+RISK	Gamble
+RITE	Ceremony
+ROAD	Street
+ROAM	Wander
+ROAR	Lion's sound
+ROBE	Judge's attire
+ROBS	Steals from
+ROCK	Stone
+RODE	Took the bus
+RODS	Fishing poles
+ROLE	Part
+ROLL	Dinner bread
+ROMP	Easy win
+ROOF	House top
+ROOK	Chess castle
+ROOM	Space
+ROOT	Cheer (for)
+ROPE	Lasso
+ROSE	Red flower
+ROSY	Optimistic
+ROTE	Memorization method
+ROVE	Wander
+ROWS	Theater lines
+RUBS	Massages
+RUBY	Red gem
+RUDE	Impolite
+RUED	Regretted
+RUGS	Floor coverings
+RUIN	Wreck
+RULE	Law
+RUNG	Ladder step
+RUNS	Baseball scores
+RUNT	Smallest of the litter
+RUSE	Trick
+RUSH	Hurry
+RUST	Iron's enemy
+RUTS	Grooves
+RENO	Nevada city
+ROME	Italy's capital
+REDS	Cincinnati team
+SACK	Fire
+SAFE	Secure
+SAGA	Long tale
+SAGE	Wise person
+SAID	Spoke
+SAIL	Boat's canvas
+SAKE	Japanese rice wine
+SALE	Discount event
+SALT	Pepper's partner
+SAME	Identical
+SAND	Beach stuff
+SANE	Rational
+SANG	Belted out
+SANK	Went under
+SAPS	Drains
+SASH	Pageant wear
+SASS	Back talk
+SAVE	Rescue
+SAWS	Carpenter's tools
+SAYS	States
+SCAB	Healing wound cover
+SCAM	Con
+SCAN	Skim
+SCAR	Wound reminder
+SEAL	Flippered mammal
+SEAM	Stitch line
+SEAR	Brown quickly
+SEAS	Oceans
+SEAT	Chair
+SECT	Faction
+SEED	Tournament ranking
+SEEK	Search for
+SEEM	Appear
+SEEN	Spotted
+SEEP	Ooze
+SEES	Dates
+SELF	Ego
+SELL	Market
+SEND	Mail
+SENT	Mailed
+SETS	Tennis match parts
+SEWN	Stitched
+SHED	Backyard storage
+SHIN	Leg front
+SHIP	Ocean liner
+SHOE	Sneaker
+SHOO	"Scram!"
+SHOP	Store
+SHOT	Attempt
+SHOW	TV program
+SHUN	Avoid
+SHUT	Closed
+SICK	Ill
+SIDE	Flank
+SIFT	Strain flour
+SIGH	Exhale wearily
+SIGN	Stop ___
+SILK	Smooth fabric
+SILL	Window ledge
+SILO	Farm tower
+SING	Carol
+SINK	Kitchen basin
+SIPS	Small drinks
+SIRE	Father, as a horse
+SIRS	Gentlemen
+SITE	Location
+SITS	Takes a seat
+SIZE	Small, medium or large
+SKID	Slide on ice
+SKIM	Read quickly
+SKIN	Epidermis
+SKIP	Hop along
+SKIS	Slope gear
+SLAB	Thick slice
+SLAM	Shut loudly
+SLAP	Smack
+SLAW	Cabbage side dish
+SLAY	Kill it, in slang
+SLED	Snowy-day ride
+SLEW	Lots
+SLID	Skated
+SLIM	Thin
+SLIP	Banana peel mishap
+SLIT	Narrow cut
+SLOB	Messy person
+SLOT	Coin opening
+SLOW	Sluggish
+SLUG	Garden pest
+SLUM	Run-down area
+SMOG	City haze
+SNAG	Catch
+SNAP	Easy task
+SNIP	Cut
+SNOB	Elitist
+SNOW	Winter blanket
+SNUB	Ignore
+SNUG	Cozy
+SOAK	Drench
+SOAP	Bar in the shower
+SOAR	Fly high
+SOBS	Cries hard
+SOCK	Drawer item
+SODA	Pop
+SOFA	Couch
+SOFT	Gentle
+SOIL	Dirt
+SOLD	Gone at auction
+SOLE	Only
+SOLO	Alone
+SOME	A few
+SONG	Tune
+SONS	Boys
+SOON	Shortly
+SOOT	Chimney grime
+SORE	Achy
+SORT	Organize
+SOUL	Spirit
+SOUP	Chicken noodle, e.g.
+SOUR	Like lemons
+SOWN	Planted
+SPAM	Junk email
+SPAN	Bridge length
+SPAR	Practice box
+SPAS	Relaxing retreats
+SPAT	Quarrel
+SPEC	Detail, briefly
+SPED	Raced
+SPIN	Twirl
+SPIT	Rotisserie rod
+SPOT	Dalmatian marking
+SPRY	Nimble
+SPUD	Potato
+SPUN	Twirled
+SPUR	Cowboy boot attachment
+STAB	Attempt
+STAG	Male deer
+STAR	Celebrity
+STAY	Remain
+STEM	Flower stalk
+STEP	Stair
+STEW	Hearty dish
+STIR	Mix
+STOP	Halt
+STOW	Pack away
+STUB	Ticket part
+STUD	Earring
+STUN	Amaze
+SUBS	Hoagies
+SUCH	So
+SUDS	Bubbles
+SUED	Took to court
+SUES	Takes to court
+SUIT	Business attire
+SULK	Pout
+SUMO	Japanese wrestling
+SUMS	Totals
+SUNG	Performed, as a song
+SUNK	Doomed
+SUNS	Stars
+SURE	Certain
+SURF	Ride waves
+SWAB	Cotton ___
+SWAG	Free stuff
+SWAM	Did laps
+SWAN	Graceful bird
+SWAP	Trade
+SWAT	Hit a fly
+SWAY	Rock back and forth
+SWIM	Do laps
+SYNC	Match up
+SEMI	Big rig
+SHAM	Fake
+TABS	Browser features
+TACK	Thumb ___
+TACO	Tuesday treat
+TACT	Diplomacy
+TAGS	Price labels
+TAIL	Dog's wagger
+TAKE	Grab
+TALE	Story
+TALK	Chat
+TALL	High
+TAME	Domesticated
+TANK	Fish home
+TANS	Beach souvenirs
+TAPE	Duct ___
+TAPS	Bugle call
+TARP	Waterproof cover
+TART	Sour
+TASK	Chore
+TAXI	Cab
+TEAL	Blue-green
+TEAM	Squad
+TEAR	Rip
+TEAS	Herbal drinks
+TECH	Gadgetry, informally
+TEEN	Adolescent
+TEES	Golf pegs
+TELL	Reveal
+TEMP	Office fill-in
+TEND	Look after
+TENS	Perfect scores
+TENT	Camping shelter
+TERM	Semester
+TEST	Exam
+TEXT	Message on a phone
+THAN	Compared to
+THAT	Not this
+THAW	Melt
+THEE	Thou, as an object
+THEM	Those people
+THEN	Next
+THEY	Those people
+THIN	Slender
+THIS	Not that
+THOU	You, in old English
+THUD	Dull sound
+THUG	Goon
+THUS	Therefore
+TICK	Clock sound
+TIDE	Ocean's ebb and flow
+TIDY	Neat
+TIED	Even
+TIER	Cake layer
+TIES	Neckwear
+TIFF	Minor spat
+TILE	Scrabble piece
+TILL	Cash register
+TILT	Lean
+TIME	Clock reading
+TINS	Cans
+TINT	Shade
+TINY	Wee
+TIPS	Gratuities
+TIRE	Wheel cover
+TOAD	Warty hopper
+TOFU	Bean curd
+TOGA	Roman robe
+TOIL	Labor
+TOLD	Informed
+TOLL	Highway fee
+TOMB	Burial site
+TOME	Big book
+TONE	Attitude
+TONS	Lots
+TOOK	Grabbed
+TOOL	Hammer, e.g.
+TOOT	Horn sound
+TOPS	Lids
+TORE	Ripped
+TORN	Ripped
+TOSS	Throw
+TOTE	Carry
+TOTS	Little ones
+TOUR	Concert series
+TOUT	Promote
+TOWN	Village
+TOWS	Hauls
+TOYS	Playthings
+TRAM	Streetcar
+TRAP	Snare
+TRAY	Serving platter
+TREE	Oak or maple
+TREK	Long hike
+TRIM	Cut slightly
+TRIO	Threesome
+TRIP	Vacation
+TROT	Horse's gait
+TRUE	Not false
+TUBA	Big brass instrument
+TUBE	Toothpaste container
+TUBS	Bath basins
+TUCK	Fold in
+TUFT	Clump of hair
+TUGS	Pulls
+TUNA	Sandwich fish
+TUNE	Melody
+TURF	Grass
+TURN	Rotate
+TUSK	Elephant tooth
+TUTU	Ballet skirt
+TWIG	Small branch
+TWIN	Identical sibling
+TWIT	Fool
+TYPE	Key in
+TYPO	Spelling slip
+TOGO	West African nation
+THOR	Hammer-wielding god
+TOTO	Dorothy's dog
+TGIF	Weekend-eve cheer
+UGLY	Unattractive
+UNDO	Ctrl+Z
+UNIT	Measure
+UPON	On
+URGE	Impulse
+URNS	Vases
+USED	Secondhand
+USER	App customer
+USES	Employs
+UTAH	Beehive State
+UDON	Thick Japanese noodle
+UMPS	Baseball officials
+UPDO	Bun, e.g.
+VAIN	Conceited
+VALE	Valley
+VAMP	Improvise, musically
+VANE	Weather indicator
+VANS	Moving vehicles
+VARY	Differ
+VASE	Flower holder
+VAST	Huge
+VATS	Big tanks
+VEAL	Calf meat
+VEER	Swerve
+VEIL	Bride's headwear
+VEIN	Blood vessel
+VENT	Air outlet
+VERB	Action word
+VERY	Extremely
+VEST	Sleeveless jacket
+VETO	Presidential no
+VETS	Animal doctors
+VIAL	Small bottle
+VIBE	Atmosphere
+VICE	Bad habit
+VIEW	Scenery
+VILE	Disgusting
+VINE	Grape plant
+VISA	Travel document
+VOID	Empty
+VOLT	Electric unit
+VOTE	Cast a ballot
+VOWS	Wedding promises
+VIVA	"Long live..."
+WADE	Walk through water
+WADS	Bundles
+WAFT	Float on the breeze
+WAGE	Pay
+WAGS	Jokers
+WAIL	Cry loudly
+WAIT	Hold on
+WAKE	Get up
+WALK	Stroll
+WALL	Partition
+WAND	Magician's prop
+WANE	Decrease
+WANT	Desire
+WARD	Hospital section
+WARM	Toasty
+WARN	Alert
+WARP	Bend out of shape
+WARS	"Star ___"
+WART	Toad bump
+WARY	Cautious
+WASH	Laundry load
+WASP	Stinging insect
+WAVE	Ocean swell
+WAVY	Rippled
+WAXY	Like crayons
+WAYS	Methods
+WEAK	Feeble
+WEAR	Have on
+WEBS	Spiders' creations
+WEDS	Marries
+WEED	Garden nuisance
+WEEK	Seven days
+WEEP	Cry
+WELD	Fuse metal
+WELL	Water source
+WENT	Left
+WEPT	Cried
+WERE	Existed
+WEST	Sunset direction
+WHAT	"Come again?"
+WHEN	At what time
+WHIM	Impulse
+WHIP	Lash
+WHIZ	Genius
+WHOA	"Hold your horses!"
+WICK	Candle part
+WIDE	Broad
+WIFE	Spouse
+WIGS	Hairpieces
+WILD	Untamed
+WILL	Determination
+WILT	Droop
+WILY	Crafty
+WIMP	Weakling
+WIND	Breeze
+WINE	Merlot, e.g.
+WING	Bird's flapper
+WINK	Flirty eye signal
+WINS	Victories
+WIPE	Clean
+WIRE	Cable
+WIRY	Lean and tough
+WISE	Smart
+WISH	Birthday-candle thought
+WISP	Strand
+WITH	Alongside
+WITS	Smarts
+WOES	Troubles
+WOKE	Got up
+WOKS	Stir-fry pans
+WOLF	Pack animal
+WOMB	Uterus
+WOOD	Lumber
+WOOF	Dog's bark
+WOOL	Sheep's coat
+WORD	Promise
+WORE	Had on
+WORK	Job
+WORM	Fishing bait
+WORN	Tired-looking
+WOVE	Knitted, sort of
+WRAP	Burrito alternative
+WREN	Small songbird
+XRAY	Hospital image
+YAKS	Chatters
+YAMS	Sweet potatoes
+YANK	Pull hard
+YAPS	Barks shrilly
+YARD	Lawn
+YARN	Knitting material
+YAWN	Sign of boredom
+YEAH	"Uh-huh"
+YEAR	Calendar span
+YELL	Shout
+YELP	Puppy's cry
+YETI	Abominable Snowman
+YOGA	Downward dog activity
+YOGI	Yoga master
+YOKE	Oxen harness
+YOLK	Egg center
+YORE	Days of ___
+YOUR	Belonging to you
+YOWL	Howl
+YULE	Christmastime
+YODA	Jedi master
+ZANY	Wacky
+ZAPS	Microwaves
+ZEAL	Enthusiasm
+ZERO	Nothing
+ZEST	Lemon peel
+ZINC	Element in pennies
+ZING	Witty remark
+ZIPS	Speeds
+ZONE	Area
+ZOOM	Video-chat app
+ZOOS	Animal parks
+ZEUS	King of the gods
+ZITS	Pimples

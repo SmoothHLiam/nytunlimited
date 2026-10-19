@@ -74,6 +74,7 @@
       tile.textContent = word;
       tile.dataset.word = word;
       if (state.selected.has(word)) tile.classList.add("selected");
+      if (/[ -]/.test(word)) tile.classList.add("phrase");
       if (word.length > 10) tile.classList.add("xlong");
       else if (word.length > 7) tile.classList.add("long");
       tile.addEventListener("click", () => toggle(word));
@@ -100,7 +101,7 @@
     board.querySelectorAll(".tile").forEach((t) => {
       t.style.fontSize = "";
       let size = parseFloat(getComputedStyle(t).fontSize);
-      while (t.scrollWidth > t.clientWidth && size > 9) {
+      while ((t.scrollWidth > t.clientWidth || t.scrollHeight > t.clientHeight) && size > 9) {
         size -= 1;
         t.style.fontSize = size + "px";
       }

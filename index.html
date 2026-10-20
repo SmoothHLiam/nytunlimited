@@ -11,75 +11,128 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <style>
-    body { background: var(--page); min-height: 100vh; display: flex; flex-direction: column; }
+    body { background: var(--page); min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; position: relative; }
+    /* soft drifting colour blobs behind everything */
+    .bg { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+    .bg i { position: absolute; width: 46vmax; height: 46vmax; border-radius: 50%; filter: blur(70px); opacity: 0.35; animation: drift 22s ease-in-out infinite alternate; }
+    .bg i:nth-child(1) { background: #b4a8ff; top: -18vmax; left: -12vmax; }
+    .bg i:nth-child(2) { background: #f7da21; top: 10vmax; right: -20vmax; animation-delay: -7s; opacity: 0.28; }
+    .bg i:nth-child(3) { background: #fc716b; bottom: -22vmax; left: 8vmax; animation-delay: -13s; opacity: 0.25; }
+    .bg i:nth-child(4) { background: #95befa; bottom: -10vmax; right: 4vmax; animation-delay: -3s; }
+    @keyframes drift { to { transform: translate(7vmax, 5vmax) scale(1.12); } }
+    /* floating letter tiles */
+    .float { position: absolute; font-family: var(--serif); color: var(--ink); opacity: 0.07; font-size: 64px; animation: bob 9s ease-in-out infinite; user-select: none; }
+    @keyframes bob { 50% { transform: translateY(-18px) rotate(6deg); } }
     main {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 48px 16px;
-      text-align: center;
+      position: relative; z-index: 1;
+      flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      padding: 48px 16px 32px; text-align: center;
     }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px; margin-bottom: 18px;
+      padding: 6px 14px; border-radius: 999px; background: #fff; border: 1px solid var(--line);
+      font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted);
+      animation: rise 0.6s both;
+    }
+    .eyebrow b { width: 8px; height: 8px; border-radius: 50%; background: #5bbf6a; box-shadow: 0 0 0 0 rgba(91,191,106,.6); animation: pulse 2s infinite; }
+    @keyframes pulse { 70% { box-shadow: 0 0 0 8px rgba(91,191,106,0); } 100% { box-shadow: 0 0 0 0 rgba(91,191,106,0); } }
     .title {
-      font-family: var(--serif);
-      font-weight: 400;
-      font-size: clamp(44px, 10vw, 76px);
-      line-height: 1;
-      margin: 0;
-      letter-spacing: -0.02em;
+      font-family: var(--serif); font-weight: 400; font-size: clamp(44px, 10vw, 84px);
+      line-height: 1; margin: 0; letter-spacing: -0.02em; animation: rise 0.6s 0.08s both;
     }
-    .subtitle { margin: 16px 0 48px; font-size: 18px; color: var(--muted); }
-    .games { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; width: 100%; max-width: 860px; }
+    .title .tile-row { display: inline-flex; gap: 0.04em; }
+    .title .tile-row span { display: inline-block; transition: transform 0.25s; }
+    .title:hover .tile-row span:nth-child(odd) { transform: translateY(-6px) rotate(-3deg); }
+    .title:hover .tile-row span:nth-child(even) { transform: translateY(-6px) rotate(3deg); }
+    .title em { font-style: normal; background: linear-gradient(90deg, #7b61ff, #fc716b 55%, #e8b900); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .subtitle { margin: 16px 0 28px; font-size: 18px; color: var(--muted); animation: rise 0.6s 0.16s both; }
+    .surprise {
+      display: inline-flex; align-items: center; gap: 10px; margin-bottom: 40px; cursor: pointer;
+      background: var(--ink); color: #fff; border: 0; border-radius: 999px; padding: 0 26px; height: 52px;
+      font-size: 16px; font-weight: 700; box-shadow: 0 6px 0 #000, 0 10px 24px rgba(0,0,0,.18);
+      transition: transform .12s, box-shadow .12s; animation: rise 0.6s 0.24s both;
+    }
+    .surprise:hover { transform: translateY(-2px); box-shadow: 0 8px 0 #000, 0 14px 28px rgba(0,0,0,.22); }
+    .surprise:active { transform: translateY(5px); box-shadow: 0 1px 0 #000; }
+    .surprise svg { width: 20px; height: 20px; }
+    .games { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; width: 100%; max-width: 920px; }
     .game {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 16px;
-      width: 260px;
-      max-width: 100%;
-      height: 220px;
-      border-radius: 24px;
-      text-decoration: none;
-      color: var(--ink);
-      border: 1px solid rgba(0, 0, 0, 0.08);
-      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.06);
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      position: relative; overflow: hidden;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      width: 280px; max-width: 100%; height: 240px; border-radius: 24px; text-decoration: none; color: var(--ink);
+      border: 1px solid rgba(0, 0, 0, 0.08); box-shadow: 0 2px 0 rgba(0, 0, 0, 0.06);
+      transition: transform 0.2s cubic-bezier(.2,.8,.3,1.3), box-shadow 0.2s;
+      animation: rise 0.6s calc(0.3s + var(--i) * 0.08s) both;
     }
-    .game:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
-    .game:active { transform: translateY(0); }
-    .game span { font-family: var(--serif); font-size: 32px; }
+    .game::after { /* shine sweep */
+      content: ""; position: absolute; top: 0; left: -60%; width: 40%; height: 100%;
+      background: linear-gradient(100deg, transparent, rgba(255,255,255,.5), transparent);
+      transform: skewX(-18deg); transition: left .6s;
+    }
+    .game:hover::after { left: 130%; }
+    .game:hover { transform: translateY(-6px) rotate(-0.6deg); box-shadow: 0 16px 32px rgba(0, 0, 0, 0.16); }
+    .game:nth-child(even):hover { transform: translateY(-6px) rotate(0.6deg); }
+    .game:active { transform: translateY(0) scale(.98); }
+    .game:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+    .game .name { font-family: var(--serif); font-size: 32px; line-height: 1.1; }
+    .game .tag { font-size: 14px; font-weight: 500; opacity: .72; padding: 0 16px; }
+    .game .played {
+      position: absolute; top: 12px; right: 12px; font-size: 12px; font-weight: 700;
+      background: rgba(255,255,255,.75); border-radius: 999px; padding: 3px 10px; display: none;
+    }
+    .game .played.on { display: block; }
     .game.connections { background: #b4a8ff; }
     .game.mini { background: #95befa; }
     .game.bee { background: #f7da21; }
     .game.strands { background: #c0ddd9; }
     .game.boxed { background: #fc716b; }
-    .game svg { width: 72px; height: 72px; }
+    .game svg { width: 72px; height: 72px; transition: transform .35s cubic-bezier(.2,.8,.3,1.6); }
+    .game:hover svg { transform: scale(1.14) rotate(-6deg); }
+    .game.bee:hover svg { animation: buzz .5s; }
+    @keyframes buzz { 20% { transform: rotate(-10deg) scale(1.1);} 40% { transform: rotate(10deg) scale(1.14);} 60% { transform: rotate(-8deg) scale(1.14);} 80% { transform: rotate(6deg) scale(1.14);} }
+    @keyframes rise { from { opacity: 0; transform: translateY(22px); } }
     @media (max-width: 600px) {
       .games { gap: 12px; }
-      .game { width: calc(50% - 6px); height: 170px; gap: 12px; border-radius: 20px; }
-      .game span { font-size: 24px; }
-      .game svg { width: 56px; height: 56px; }
+      .game { width: calc(50% - 6px); height: 190px; gap: 8px; border-radius: 20px; }
+      .game .name { font-size: 22px; }
+      .game .tag { font-size: 12px; padding: 0 10px; }
+      .game svg { width: 52px; height: 52px; }
+      .game:last-child:nth-child(odd) { width: 100%; }
     }
-    footer { padding: 24px 16px; text-align: center; font-size: 13px; color: var(--muted); }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+    footer { position: relative; z-index: 1; padding: 24px 16px; text-align: center; font-size: 13px; color: var(--muted); }
   </style>
 </head>
 <body>
+  <div class="bg" aria-hidden="true">
+    <i></i><i></i><i></i><i></i>
+    <span class="float" style="left:6%;top:18%;animation-delay:-2s">A</span>
+    <span class="float" style="left:90%;top:30%;animation-delay:-5s">Z</span>
+    <span class="float" style="left:14%;top:72%;animation-delay:-7s">Q</span>
+    <span class="float" style="left:80%;top:78%;animation-delay:-1s">E</span>
+    <span class="float" style="left:48%;top:6%;animation-delay:-4s">R</span>
+  </div>
   <main>
-    <h1 class="title">Games Unlimited</h1>
+    <div class="eyebrow"><b></b>5 games · endless puzzles</div>
+    <h1 class="title">Games <em>Unlimited</em></h1>
     <p class="subtitle">Daily puzzles, minus the daily. Play as many as you like.</p>
+    <button class="surprise" id="surprise" type="button">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+      Surprise me
+    </button>
     <div class="games">
-      <a class="game connections" href="/connections">
+      <a class="game connections" style="--i:0" data-game="connections" href="/connections">
         <svg viewBox="0 0 72 72" aria-hidden="true">
           <rect x="4" y="4" width="30" height="30" rx="5" fill="#f9df6d" stroke="#121212" stroke-width="3"/>
           <rect x="38" y="4" width="30" height="30" rx="5" fill="#a0c35a" stroke="#121212" stroke-width="3"/>
           <rect x="4" y="38" width="30" height="30" rx="5" fill="#b0c4ef" stroke="#121212" stroke-width="3"/>
           <rect x="38" y="38" width="30" height="30" rx="5" fill="#ba81c5" stroke="#121212" stroke-width="3"/>
         </svg>
-        <span>Connections</span>
+        <span class="name">Connections</span>
+        <span class="tag">Sort sixteen words into four secret groups.</span>
+        <span class="played"></span>
       </a>
-      <a class="game mini" href="/mini">
+      <a class="game mini" style="--i:1" data-game="mini" href="/mini">
         <svg viewBox="0 0 72 72" aria-hidden="true">
           <rect x="4" y="4" width="64" height="64" fill="#fff" stroke="#121212" stroke-width="3"/>
           <rect x="4" y="4" width="21.3" height="21.3" fill="#121212"/>
@@ -87,16 +140,20 @@
           <rect x="25.3" y="25.3" width="21.3" height="21.3" fill="#ffda00"/>
           <path d="M25.3 4v64M46.7 4v64M4 25.3h64M4 46.7h64" stroke="#121212" stroke-width="2"/>
         </svg>
-        <span>The Mini</span>
+        <span class="name">The Mini</span>
+        <span class="tag">A bite-sized 5×5 crossword.</span>
+        <span class="played"></span>
       </a>
-      <a class="game bee" href="/spellingbee">
+      <a class="game bee" style="--i:2" data-game="bee" href="/spellingbee">
         <svg viewBox="0 0 72 72" aria-hidden="true">
           <path d="M36 4l27.7 16v32L36 68 8.3 52V20z" fill="#fff" stroke="#121212" stroke-width="3" stroke-linejoin="round"/>
           <path d="M36 22l12.1 7v14L36 50l-12.1-7V29z" fill="#f7da21" stroke="#121212" stroke-width="3" stroke-linejoin="round"/>
         </svg>
-        <span>Spelling Bee</span>
+        <span class="name">Spelling Bee</span>
+        <span class="tag">Make words from seven letters.</span>
+        <span class="played"></span>
       </a>
-      <a class="game strands" href="/strands">
+      <a class="game strands" style="--i:3" data-game="strands" href="/strands">
         <svg viewBox="0 0 72 72" aria-hidden="true">
           <path d="M14 14L36 36L58 14M36 36V58" stroke="#121212" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
           <circle cx="14" cy="14" r="8" fill="#aedfee" stroke="#121212" stroke-width="3"/>
@@ -104,9 +161,11 @@
           <circle cx="58" cy="14" r="8" fill="#f8cd05" stroke="#121212" stroke-width="3"/>
           <circle cx="36" cy="58" r="8" fill="#fff" stroke="#121212" stroke-width="3"/>
         </svg>
-        <span>Strands</span>
+        <span class="name">Strands</span>
+        <span class="tag">Find the hidden theme words.</span>
+        <span class="played"></span>
       </a>
-      <a class="game boxed" href="/letterboxed">
+      <a class="game boxed" style="--i:4" data-game="boxed" href="/letterboxed">
         <svg viewBox="0 0 72 72" aria-hidden="true">
           <rect x="12" y="12" width="48" height="48" fill="#fff" stroke="#121212" stroke-width="4"/>
           <path d="M28 12L60 40M60 40L12 46" stroke="#fc716b" stroke-width="3" fill="none"/>
@@ -114,10 +173,29 @@
             <circle cx="28" cy="12" r="5"/><circle cx="60" cy="40" r="5"/><circle cx="12" cy="46" r="5"/><circle cx="44" cy="60" r="5"/>
           </g>
         </svg>
-        <span>Letter Boxed</span>
+        <span class="name">Letter Boxed</span>
+        <span class="tag">Link letters around the box.</span>
+        <span class="played"></span>
       </a>
     </div>
   </main>
   <footer>An unofficial fan remake for practice. Not affiliated with The New York Times.</footer>
+  <script>
+    (function () {
+      var links = [].slice.call(document.querySelectorAll(".game"));
+      // Show how many puzzles have been finished, using the stats each game already stores.
+      var stat = { connections: ["conn-stats", "played"], mini: ["mini-stats", "solved"], strands: ["strands-stats", "played"], boxed: ["lb-stats", "solved"], bee: ["bee-stats", "played"] };
+      links.forEach(function (a) {
+        var s = stat[a.dataset.game];
+        try {
+          var n = (JSON.parse(localStorage.getItem(s[0])) || {})[s[1]];
+          if (n) { var el = a.querySelector(".played"); el.textContent = "✓ " + n + " played"; el.className = "played on"; }
+        } catch (e) {}
+      });
+      document.getElementById("surprise").addEventListener("click", function () {
+        location.href = links[Math.floor(Math.random() * links.length)].getAttribute("href");
+      });
+    })();
+  </script>
 </body>
 </html>

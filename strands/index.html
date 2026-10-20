@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Strands Unlimited</title>
+  <meta name="description" content="Find the theme words hidden in the grid. Endless puzzles.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/strands/strands.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="home" href="/" aria-label="Back to home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="home-label">Home</span>
+    </a>
+    <h1>Strands</h1>
+    <div class="actions">
+      <button class="pill small" id="new-btn">New puzzle</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="side">
+      <div class="theme-card">
+        <div class="theme-head">Today's theme</div>
+        <div class="theme-clue" id="clue"></div>
+      </div>
+      <p class="progress" id="progress"></p>
+      <button class="pill hint-btn" id="hint-btn" disabled>
+        <span class="hint-fill" id="hint-fill"></span>
+        <span class="hint-label">Hint</span>
+      </button>
+    </section>
+
+    <section class="play">
+      <div class="current" id="current">&nbsp;</div>
+      <div class="board" id="board">
+        <svg class="lines" id="lines" viewBox="0 0 600 800" preserveAspectRatio="none" aria-hidden="true"></svg>
+      </div>
+      <div class="mobile-controls">
+        <button class="pill hint-btn" id="hint-btn-m" disabled>
+          <span class="hint-fill" id="hint-fill-m"></span>
+          <span class="hint-label">Hint</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast-wrap" id="toasts"></div>
+
+  <div class="modal-backdrop" id="modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close" id="modal-close" aria-label="Close">&times;</button>
+      <h2 id="modal-title">Perfect!</h2>
+      <p id="modal-sub"></p>
+      <div class="summary" id="summary"></div>
+      <div class="stats" id="stats"></div>
+      <div class="buttons">
+        <button class="pill" id="share-btn">Share</button>
+        <button class="pill solid" id="modal-next">Next Puzzle</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/common.js"></script>
+  <script src="/words/common.js"></script>
+  <script src="/strands/themes.js"></script>
+  <script src="/strands/generator.js"></script>
+  <script src="/strands/strands.js"></script>
+</body>
+</html>

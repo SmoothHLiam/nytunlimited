@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Spelling Bee Unlimited</title>
+  <meta name="description" content="Make words from seven letters. Endless honeycombs.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/spellingbee/spellingbee.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="home" href="/" aria-label="Back to home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="home-label">Home</span>
+    </a>
+    <h1>Spelling Bee</h1>
+    <div class="actions">
+      <button class="pill small" id="new-btn">New puzzle</button>
+    </div>
+  </header>
+
+  <div class="bee-toolbar">
+    <button class="text-btn" id="rankings-btn">Rankings</button>
+    <button class="text-btn" id="giveup-btn">Show answers</button>
+  </div>
+
+  <main class="bee-layout">
+    <section class="bee-status">
+      <button class="rank" id="rank" aria-label="Show rankings">
+        <span class="rank-name" id="rank-name">Beginner</span>
+        <span class="rank-track">
+          <span class="rank-line"></span>
+          <span class="rank-dots" id="rank-dots"></span>
+        </span>
+      </button>
+      <div class="wordlist" id="wordlist">
+        <button class="wordlist-head" id="wordlist-head" aria-expanded="false">
+          <span id="wordlist-summary">You have found 0 words</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="wordlist-body">
+          <p class="wordlist-count" id="wordlist-count">You have found 0 words</p>
+          <ul id="found-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="bee-play">
+      <div class="msg-wrap"><div class="msg" id="msg"></div></div>
+      <div class="input" id="input" aria-live="polite"><span id="input-letters"></span><span class="caret"></span></div>
+      <svg class="hive" id="hive" viewBox="-131 -137 262 274" role="group" aria-label="Letters"></svg>
+      <div class="hive-actions">
+        <button class="pill" id="delete-btn">Delete</button>
+        <button class="pill round" id="shuffle-btn" aria-label="Shuffle letters">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 0 0-14.3-4.9L4 8"/><path d="M4 3v5h5"/><path d="M4 13a8 8 0 0 0 14.3 4.9L20 16"/><path d="M20 21v-5h-5"/></svg>
+        </button>
+        <button class="pill" id="enter-btn">Enter</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast-wrap" id="toasts"></div>
+
+  <div class="modal-backdrop" id="ranks-modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="ranks-title">
+      <button class="close" data-close="ranks-modal" aria-label="Close">&times;</button>
+      <h2 id="ranks-title">Rankings</h2>
+      <p>Ranks are based on a percentage of possible points in a puzzle.</p>
+      <table class="ranks-table" id="ranks-table"></table>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close" data-close="modal" aria-label="Close">&times;</button>
+      <div class="bee-badge" id="modal-badge" aria-hidden="true">🐝</div>
+      <h2 id="modal-title">Genius!</h2>
+      <p id="modal-sub"></p>
+      <div class="stats" id="stats"></div>
+      <div class="buttons">
+        <button class="pill" id="keep-btn">Keep playing</button>
+        <button class="pill solid" id="modal-next">Next Puzzle</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/common.js"></script>
+  <script src="/words/common.js"></script>
+  <script src="/spellingbee/spellingbee.js"></script>
+</body>
+</html>

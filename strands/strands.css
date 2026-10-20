@@ -1,0 +1,120 @@
+:root {
+  --found: #aedfee;
+  --spangram: #f8cd05;
+  --selecting: #dbd8c5;
+  --theme-head: #aedfee;
+}
+
+.layout {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 32px 16px 48px;
+}
+
+/* ---------- Side panel ---------- */
+.side { width: 280px; display: flex; flex-direction: column; align-items: center; gap: 20px; padding-top: 40px; }
+.theme-card {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+.theme-head {
+  background: var(--theme-head);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 10px;
+}
+.theme-clue { font-size: 22px; font-weight: 700; padding: 20px 16px; }
+.progress { margin: 0; font-size: 17px; text-align: center; }
+.progress b { font-weight: 800; }
+
+.hint-btn { position: relative; overflow: hidden; min-width: 110px; }
+.hint-btn .hint-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background: #e8e8e8;
+  transition: width 0.4s ease;
+}
+.hint-btn .hint-label { position: relative; }
+.hint-btn.ready { border-width: 2px; }
+.hint-btn:disabled { opacity: 1; color: #8a8a8a; border-color: #b8b8b8; }
+.mobile-controls { display: none; }
+
+/* ---------- Board ---------- */
+.play { display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 420px; }
+.current {
+  min-height: 44px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.current.ok { color: #2b8ea8; }
+.current.bad { animation: wobble 0.4s; }
+
+.board {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 6 / 8;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.lines { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.lines line { stroke-linecap: round; }
+
+.letter {
+  position: absolute;
+  width: calc(100% / 6 * 0.78);
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(20px, 6vw, 28px);
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.letter.selected { background: var(--selecting); }
+.letter.found { background: var(--found); }
+.letter.span { background: var(--spangram); }
+.letter.hinted { box-shadow: inset 0 0 0 3px var(--found); }
+.letter.hinted.found, .letter.hinted.span { box-shadow: none; }
+.letter.pop { animation: pop 0.35s ease-out; }
+
+.summary { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; font-size: 26px; max-width: 300px; margin: 8px auto; }
+
+@keyframes pop { 50% { transform: translate(-50%, -50%) scale(1.15); } }
+@keyframes wobble {
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+@media (max-width: 760px) {
+  .home-label { display: none; }
+  .topbar h1 { font-size: 22px; }
+  .layout { flex-direction: column; align-items: center; gap: 12px; padding-top: 16px; }
+  .side { width: 100%; max-width: 420px; padding-top: 0; gap: 10px; }
+  .side .hint-btn { display: none; }
+  .theme-head { padding: 6px; font-size: 13px; }
+  .theme-clue { font-size: 19px; padding: 10px; }
+  .progress { font-size: 15px; }
+  .current { font-size: 24px; min-height: 34px; margin-bottom: 4px; }
+  .play { max-width: min(420px, calc((100dvh - 330px) * 0.75)); }
+  .mobile-controls { display: flex; justify-content: center; margin-top: 12px; }
+}

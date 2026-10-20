@@ -1,0 +1,93 @@
+:root {
+  --lb-bg: #fc716b;
+  --lb-line: #faa6a4;
+}
+
+body { background: var(--lb-bg); min-height: 100vh; }
+
+.lb {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.entry { width: 100%; text-align: center; min-height: 128px; }
+.current {
+  display: inline-block;
+  min-width: 60%;
+  min-height: 48px;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-bottom: 3px solid var(--ink);
+  padding-bottom: 4px;
+  line-height: 44px;
+}
+.current .first { color: rgba(18, 18, 18, 0.45); }
+.current.shake { animation: lb-shake 0.4s ease-in-out; }
+.played {
+  margin-top: 14px;
+  min-height: 22px;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.par { margin: 10px 0 0; font-size: 15px; }
+
+.box-wrap { width: 100%; max-width: 420px; margin: 8px 0 20px; }
+.box { width: 100%; height: auto; display: block; user-select: none; touch-action: manipulation; }
+.box .frame { fill: #fff; stroke: var(--ink); stroke-width: 4; }
+.box .dot { fill: #fff; stroke: var(--ink); stroke-width: 2.5; cursor: pointer; transition: fill 0.12s; }
+.box .dot.used { fill: var(--lb-bg); }
+.box .dot.active { fill: var(--ink); }
+.box .letter {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 26px;
+  fill: #fff;
+  cursor: pointer;
+  text-anchor: middle;
+  dominant-baseline: central;
+  transition: fill 0.12s;
+}
+.box .letter.used { fill: var(--ink); }
+.box .hit { fill: transparent; cursor: pointer; }
+.box .line { stroke: var(--lb-line); stroke-width: 3.5; stroke-linecap: round; fill: none; }
+.box .line.current { stroke: var(--lb-bg); stroke-dasharray: 6 5; }
+
+.controls { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.controls .pill { background: #fff; }
+.link-btn {
+  margin-top: 18px;
+  background: none;
+  border: 0;
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.modal .solution { font-weight: 700; letter-spacing: 0.04em; }
+
+@keyframes lb-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+@media (max-width: 560px) {
+  .home-label { display: none; }
+  .topbar h1 { font-size: 22px; }
+  .lb { padding-top: 16px; }
+  .entry { min-height: 112px; }
+  .current { font-size: 28px; }
+  .pill { padding: 0 14px; font-size: 14px; }
+}
+@media (max-width: 380px) {
+  .topbar .pill.small { padding: 0 10px; font-size: 13px; }
+}
+
+/* Keep messages clear of the word being typed */
+.toast-wrap { top: 196px; }

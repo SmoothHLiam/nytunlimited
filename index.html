@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Games Unlimited</title>
-  <meta name="description" content="Play Connections and The Mini crossword as many times as you like.">
+  <meta name="description" content="Play Connections, The Mini, Spelling Bee, Strands and Letter Boxed as many times as you like.">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,7 @@
       letter-spacing: -0.02em;
     }
     .subtitle { margin: 16px 0 48px; font-size: 18px; color: var(--muted); }
-    .games { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; width: 100%; }
+    .games { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; width: 100%; max-width: 860px; }
     .game {
       display: flex;
       flex-direction: column;
@@ -52,7 +52,16 @@
     .game span { font-family: var(--serif); font-size: 32px; }
     .game.connections { background: #b4a8ff; }
     .game.mini { background: #95befa; }
+    .game.bee { background: #f7da21; }
+    .game.strands { background: #c0ddd9; }
+    .game.boxed { background: #fc716b; }
     .game svg { width: 72px; height: 72px; }
+    @media (max-width: 600px) {
+      .games { gap: 12px; }
+      .game { width: calc(50% - 6px); height: 170px; gap: 12px; border-radius: 20px; }
+      .game span { font-size: 24px; }
+      .game svg { width: 56px; height: 56px; }
+    }
     footer { padding: 24px 16px; text-align: center; font-size: 13px; color: var(--muted); }
   </style>
 </head>
@@ -79,6 +88,33 @@
           <path d="M25.3 4v64M46.7 4v64M4 25.3h64M4 46.7h64" stroke="#121212" stroke-width="2"/>
         </svg>
         <span>The Mini</span>
+      </a>
+      <a class="game bee" href="/spellingbee">
+        <svg viewBox="0 0 72 72" aria-hidden="true">
+          <path d="M36 4l27.7 16v32L36 68 8.3 52V20z" fill="#fff" stroke="#121212" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M36 22l12.1 7v14L36 50l-12.1-7V29z" fill="#f7da21" stroke="#121212" stroke-width="3" stroke-linejoin="round"/>
+        </svg>
+        <span>Spelling Bee</span>
+      </a>
+      <a class="game strands" href="/strands">
+        <svg viewBox="0 0 72 72" aria-hidden="true">
+          <path d="M14 14L36 36L58 14M36 36V58" stroke="#121212" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="14" cy="14" r="8" fill="#aedfee" stroke="#121212" stroke-width="3"/>
+          <circle cx="36" cy="36" r="8" fill="#aedfee" stroke="#121212" stroke-width="3"/>
+          <circle cx="58" cy="14" r="8" fill="#f8cd05" stroke="#121212" stroke-width="3"/>
+          <circle cx="36" cy="58" r="8" fill="#fff" stroke="#121212" stroke-width="3"/>
+        </svg>
+        <span>Strands</span>
+      </a>
+      <a class="game boxed" href="/letterboxed">
+        <svg viewBox="0 0 72 72" aria-hidden="true">
+          <rect x="12" y="12" width="48" height="48" fill="#fff" stroke="#121212" stroke-width="4"/>
+          <path d="M28 12L60 40M60 40L12 46" stroke="#fc716b" stroke-width="3" fill="none"/>
+          <g fill="#fff" stroke="#121212" stroke-width="3">
+            <circle cx="28" cy="12" r="5"/><circle cx="60" cy="40" r="5"/><circle cx="12" cy="46" r="5"/><circle cx="44" cy="60" r="5"/>
+          </g>
+        </svg>
+        <span>Letter Boxed</span>
       </a>
     </div>
   </main>

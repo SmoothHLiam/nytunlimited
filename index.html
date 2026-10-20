@@ -28,14 +28,6 @@
       flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
       padding: 48px 16px 32px; text-align: center;
     }
-    .eyebrow {
-      display: inline-flex; align-items: center; gap: 8px; margin-bottom: 18px;
-      padding: 6px 14px; border-radius: 999px; background: #fff; border: 1px solid var(--line);
-      font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted);
-      animation: rise 0.6s both;
-    }
-    .eyebrow b { width: 8px; height: 8px; border-radius: 50%; background: #5bbf6a; box-shadow: 0 0 0 0 rgba(91,191,106,.6); animation: pulse 2s infinite; }
-    @keyframes pulse { 70% { box-shadow: 0 0 0 8px rgba(91,191,106,0); } 100% { box-shadow: 0 0 0 0 rgba(91,191,106,0); } }
     .title {
       font-family: var(--serif); font-weight: 400; font-size: clamp(44px, 10vw, 84px);
       line-height: 1; margin: 0; letter-spacing: -0.02em; animation: rise 0.6s 0.08s both;
@@ -113,7 +105,6 @@
     <span class="float" style="left:48%;top:6%;animation-delay:-4s">R</span>
   </div>
   <main>
-    <div class="eyebrow"><b></b>5 games · endless puzzles</div>
     <h1 class="title">Games <em>Unlimited</em></h1>
     <p class="subtitle">Daily puzzles, minus the daily. Play as many as you like.</p>
     <button class="surprise" id="surprise" type="button">

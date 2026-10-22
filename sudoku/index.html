@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Sudoku Unlimited</title>
+  <meta name="description" content="Fill the grid so every row, column and box has 1 to 9. Endless puzzles.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/sudoku/sudoku.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="home" href="/" aria-label="Back to home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="home-label">Home</span>
+    </a>
+    <h1>Sudoku</h1>
+    <div class="actions">
+      <button class="pill small" id="new-btn">New puzzle</button>
+    </div>
+  </header>
+
+  <div class="sub-bar">
+    <div class="levels" id="levels" role="tablist" aria-label="Difficulty">
+      <button data-level="easy" role="tab">Easy</button>
+      <button data-level="medium" role="tab">Medium</button>
+      <button data-level="hard" role="tab">Hard</button>
+    </div>
+    <div class="timer-wrap">
+      <span class="timer" id="timer">0:00</span>
+      <button class="icon-btn" id="pause-btn" aria-label="Pause">
+        <svg viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <main class="sudoku">
+    <div class="grid-wrap">
+      <div class="grid" id="grid" role="grid" aria-label="Sudoku grid"></div>
+      <div class="paused" id="paused" hidden>
+        <p>Paused</p>
+        <button class="pill solid" id="resume-btn">Resume</button>
+      </div>
+    </div>
+
+    <section class="panel">
+      <div class="modes">
+        <button class="mode on" id="mode-normal">Normal</button>
+        <button class="mode" id="mode-notes">Candidate</button>
+      </div>
+      <div class="pad" id="pad"></div>
+      <div class="tools">
+        <button class="tool" id="undo-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></svg>
+          Undo
+        </button>
+        <button class="tool" id="erase-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20H7L3 16l10-10 7 7-6.5 6.5"/><path d="m6 11 7 7"/></svg>
+          Erase
+        </button>
+        <button class="tool" id="hint-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3h6c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2z"/></svg>
+          Hint
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast-wrap" id="toasts"></div>
+
+  <div class="modal-backdrop" id="modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close" id="modal-close" aria-label="Close">&times;</button>
+      <h2 id="modal-title">Solved!</h2>
+      <p id="modal-sub"></p>
+      <div class="stats" id="stats"></div>
+      <div class="buttons">
+        <button class="pill" id="share-btn">Share</button>
+        <button class="pill solid" id="modal-next">Next Puzzle</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/common.js"></script>
+  <script src="/sudoku/generator.js"></script>
+  <script src="/sudoku/sudoku.js"></script>
+</body>
+</html>

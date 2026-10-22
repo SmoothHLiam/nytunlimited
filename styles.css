@@ -73,6 +73,29 @@ button { font-family: inherit; color: inherit; }
 .pill:disabled { opacity: 0.35; cursor: default; }
 .pill.small { height: 34px; padding: 0 14px; font-size: 14px; }
 
+/* ---------- Difficulty bar (Sudoku, Pips) ---------- */
+.sub-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 16px;
+}
+.levels { display: inline-flex; background: #f0efe9; border-radius: 999px; padding: 3px; }
+.levels button {
+  border: 0;
+  background: none;
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--muted);
+}
+.levels button.on { background: #fff; color: var(--ink); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); }
 /* ---------- Toast ---------- */
 .toast-wrap {
   position: fixed;

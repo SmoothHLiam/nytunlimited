@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Games Unlimited</title>
-  <meta name="description" content="Play Connections, The Mini, Spelling Bee, Strands and Letter Boxed as many times as you like.">
+  <meta name="description" content="Play Connections, The Mini, Spelling Bee, Strands, Letter Boxed and Tiles as many times as you like.">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,6 +84,7 @@
     .game.bee { background: #f7da21; }
     .game.strands { background: #c0ddd9; }
     .game.boxed { background: #fc716b; }
+    .game.tiles { background: #f6b8d6; }
     .game svg { width: 72px; height: 72px; transition: transform .35s cubic-bezier(.2,.8,.3,1.6); }
     .game:hover svg { transform: scale(1.14) rotate(-6deg); }
     .game.bee:hover svg { animation: buzz .5s; }
@@ -185,6 +186,21 @@
         <span class="tag">Link letters around the box.</span>
         <span class="played"></span>
       </a>
+      <a class="game tiles" style="--i:5" data-game="tiles" href="/tiles">
+        <svg viewBox="0 0 72 72" aria-hidden="true">
+          <rect x="4" y="4" width="30" height="30" rx="6" fill="#ffd6a5" stroke="#121212" stroke-width="3"/>
+          <circle cx="19" cy="19" r="8" fill="#f77f00"/>
+          <rect x="38" y="4" width="30" height="30" rx="6" fill="#9bf6ff" stroke="#121212" stroke-width="3"/>
+          <path d="M53 10l9 9-9 9-9-9z" fill="#3a86ff"/>
+          <rect x="4" y="38" width="30" height="30" rx="6" fill="#9bf6ff" stroke="#121212" stroke-width="3"/>
+          <circle cx="19" cy="53" r="8" fill="#f77f00"/>
+          <rect x="38" y="38" width="30" height="30" rx="6" fill="#ffd6a5" stroke="#121212" stroke-width="3"/>
+          <path d="M53 44l9 9-9 9-9-9z" fill="#3a86ff"/>
+        </svg>
+        <span class="name">Tiles</span>
+        <span class="tag">Match patterns, build combos.</span>
+        <span class="played"></span>
+      </a>
     </div>
     <a class="suggest" href="https://forms.gle/kB5BF8uow2mkMGDUA">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
@@ -196,12 +212,12 @@
     (function () {
       var links = [].slice.call(document.querySelectorAll(".game"));
       // Show how many puzzles have been finished, using the stats each game already stores.
-      var stat = { connections: ["conn-stats", "played"], mini: ["mini-stats", "solved"], strands: ["strands-stats", "played"], boxed: ["lb-stats", "solved"], bee: ["bee-stats", "played"] };
+      var stat = { connections: ["conn-stats", "played"], mini: ["mini-stats", "solved"], strands: ["strands-stats", "played"], boxed: ["lb-stats", "solved"], bee: ["bee-stats", "genius", "genius"], tiles: ["tiles-stats", "played"] };
       links.forEach(function (a) {
         var s = stat[a.dataset.game];
         try {
           var n = (JSON.parse(localStorage.getItem(s[0])) || {})[s[1]];
-          if (n) { var el = a.querySelector(".played"); el.textContent = "✓ " + n + " played"; el.className = "played on"; }
+          if (n) { var el = a.querySelector(".played"); el.textContent = "✓ " + n + " " + (s[2] || "played"); el.className = "played on"; }
         } catch (e) {}
       });
       document.getElementById("surprise").addEventListener("click", function () {

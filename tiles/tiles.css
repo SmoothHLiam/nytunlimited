@@ -1,0 +1,67 @@
+.tiles-wrap {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 20px 16px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scores { display: flex; gap: 28px; margin-bottom: 18px; }
+.score { display: flex; flex-direction: column; align-items: center; min-width: 64px; }
+.score b { font-size: 28px; font-weight: 700; line-height: 1.1; transition: transform 0.2s; }
+.score span { font-size: 12px; color: var(--muted); }
+.score b.bump { animation: bump 0.35s ease-out; }
+@keyframes bump { 40% { transform: scale(1.35); } }
+
+.board {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.tile {
+  position: relative;
+  aspect-ratio: 1;
+  padding: 0;
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+.tile svg { display: block; width: 100%; height: 100%; }
+.tile:hover:not(.empty) { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12); }
+.tile:focus-visible { outline: 3px solid #3a86ff; outline-offset: 2px; }
+.tile.selected {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 3px var(--ink), 0 6px 14px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px) scale(1.04);
+  z-index: 1;
+}
+.tile.empty { background: transparent; border-style: dashed; border-color: #e6e5df; cursor: default; }
+.tile.shake { animation: shake 0.3s; }
+@keyframes shake { 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
+
+.tile .out { animation: vanish 0.3s ease-in forwards; transform-origin: 50px 50px; transform-box: view-box; }
+@keyframes vanish { to { opacity: 0; transform: scale(0.4); } }
+
+.hint { margin: 18px 0 0; font-size: 15px; color: var(--muted); min-height: 1.4em; text-align: center; }
+
+.link-btn { margin-top: 14px; background: none; border: 0; padding: 4px; font-size: 14px; font-weight: 600; text-decoration: underline; cursor: pointer; }
+
+.rules { text-align: left; margin: 12px 0 0; padding-left: 20px; font-size: 16px; line-height: 1.45; }
+.rules li { margin-bottom: 8px; }
+
+@media (max-width: 420px) {
+  .board { gap: 6px; }
+  .tile { border-radius: 9px; }
+  .scores { gap: 18px; }
+  .score b { font-size: 24px; }
+  .topbar .home-label { display: none; }
+}

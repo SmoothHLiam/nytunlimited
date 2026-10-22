@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tiles Unlimited</title>
+  <meta name="description" content="Match tiles that share a pattern and keep the combo going. Endless boards.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/tiles/tiles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="home" href="/" aria-label="Back to home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="home-label">Home</span>
+    </a>
+    <h1>Tiles</h1>
+    <div class="actions">
+      <button class="pill small" id="new-btn">New puzzle</button>
+    </div>
+  </header>
+
+  <main class="tiles-wrap">
+    <div class="scores">
+      <div class="score"><b id="combo">0</b><span>Combo</span></div>
+      <div class="score"><b id="best">0</b><span>Longest combo</span></div>
+      <div class="score"><b id="left">30</b><span>Tiles left</span></div>
+    </div>
+    <div class="board" id="board" role="grid" aria-label="Tiles"></div>
+    <p class="hint" id="hint">Pick two tiles that share a pattern.</p>
+    <button class="link-btn" id="help-btn">How to play</button>
+  </main>
+
+  <div class="toast-wrap" id="toasts"></div>
+
+  <div class="modal-backdrop" id="help">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="help-title">
+      <button class="close" data-close="help" aria-label="Close">&times;</button>
+      <h2 id="help-title">How to play</h2>
+      <ul class="rules">
+        <li>Each tile is built from up to three layers: a background colour, a shape, and a small symbol.</li>
+        <li>Select two tiles that share a layer. Every matching layer disappears from both.</li>
+        <li>The second tile stays selected. Match it with another tile to keep your <b>combo</b> going.</li>
+        <li>Picking a tile with nothing in common breaks the combo. Clear the whole board to win!</li>
+      </ul>
+      <div class="buttons"><button class="pill solid" data-close="help">Let's play</button></div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close" data-close="modal" aria-label="Close">&times;</button>
+      <h2 id="modal-title">Board cleared!</h2>
+      <p id="modal-sub"></p>
+      <div class="stats" id="stats"></div>
+      <div class="buttons">
+        <button class="pill" id="share-btn">Share</button>
+        <button class="pill solid" id="modal-next">Next Puzzle</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/common.js"></script>
+  <script src="/tiles/tiles.js"></script>
+</body>
+</html>

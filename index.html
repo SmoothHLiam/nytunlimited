@@ -104,6 +104,18 @@
     .suggest:hover { transform: translateY(-2px); background: #fff; border-style: solid; }
     .suggest:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
     .suggest svg { width: 18px; height: 18px; }
+    .offline { position: relative; z-index: 1; margin-top: 36px; max-width: 760px; animation: rise 0.6s 0.9s both; }
+    .offline h2 { font-family: var(--serif); font-weight: 400; font-size: 26px; margin: 0 0 4px; }
+    .offline p { margin: 0 0 14px; font-size: 14px; color: var(--muted); }
+    .downloads { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+    .dl {
+      display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 14px; cursor: pointer;
+      border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 999px; background: rgba(255, 255, 255, 0.8);
+      font-size: 14px; font-weight: 600; color: var(--ink); transition: background .15s, transform .15s;
+    }
+    .dl:hover:not(:disabled) { background: #fff; transform: translateY(-1px); }
+    .dl:disabled { opacity: 0.7; cursor: progress; }
+    .dl svg { width: 16px; height: 16px; }
     footer { position: relative; z-index: 1; padding: 24px 16px; text-align: center; font-size: 13px; color: var(--muted); }
   </style>
 </head>
@@ -225,8 +237,14 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
       Suggest a game here
     </a>
+    <section class="offline" aria-labelledby="offline-title">
+      <h2 id="offline-title">Play offline</h2>
+      <p>Download any game as a single HTML file and open it in your browser — no internet needed.</p>
+      <div class="downloads" id="downloads"></div>
+    </section>
   </main>
   <footer>An unofficial fan remake for practice. Not affiliated with The New York Times.</footer>
+  <script src="/download.js"></script>
   <script>
     (function () {
       var links = [].slice.call(document.querySelectorAll(".game"));

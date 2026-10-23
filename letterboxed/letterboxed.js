@@ -13,8 +13,8 @@
   // ---------- Dictionary ----------
   const COMMON = (window.COMMON_WORDS || "").split(" ").filter(Boolean);
   let dictionary = new Set(COMMON);
-  fetch("/words/enable.txt")
-    .then((r) => (r.ok ? r.text() : Promise.reject()))
+  // Downloaded single-file copies carry the full list inline as window.ENABLE_WORDS.
+  (window.ENABLE_WORDS != null ? Promise.resolve(window.ENABLE_WORDS) : fetch("/words/enable.txt").then((r) => (r.ok ? r.text() : Promise.reject())))
     .then((text) => {
       const full = new Set(text.split("\n").filter(Boolean));
       COMMON.forEach((w) => full.add(w));
